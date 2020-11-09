@@ -19,6 +19,10 @@ An acoustic guitar is recommended for new students, however electric guitar will
 - Steel string acoustic: This guitar requires more effort to play but is a more common type of guitar that you hear on most recordings of acoustic guitar.
 - Nylon string acoustic: These guitars were made to play classical music and their strings are softer on the fingers.  I recommend these for younger students to get started on.
 
+---
+## **Guitar Rentals**
+---
+
 If you aren't sure about purchasing a guitar as a new student, I recommend a rental at Long and Mcquade which is very affordable and offer a rent-to-own on their instruments.  They are located at Bloor and Ossington, here is an example of what you might say:
 
 "I am looking for a half or 3/4 size nylon string guitar to rent for my 9 year old son who is starting guitar lessons this year.  Do you have anything you recommend?"
@@ -41,9 +45,9 @@ or alternately
 ## **Other Tools**
 ---
 
-- A metronome is a key component to being a good musician, and you can now find metronomes and drum machines on the internet for free, I recommend the following:
-www.metronomeonline.com/ - a simple online metronome
-www.onemotion.com/flash/drum-machine/ - an online flash drum machine that is really useful for keeping time in a more musical way than a metronome.
+- A metronome is a key component to being a good musician, and you can now find metronomes and drum machines on the internet for free, - I recommend the following:
+- www.metronomeonline.com/ - a simple online metronome
+- www.onemotion.com/flash/drum-machine/ - an online flash drum machine that is really useful for keeping time in a more musical way than a metronome.
 
 ---
 ## **Oakwood Guitar School Store**
