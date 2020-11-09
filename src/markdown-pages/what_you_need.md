@@ -4,13 +4,15 @@ slug: "/what-you-need"
 date: "2020-05-04"
 title: "What You Need"
 subtitle: "A few things to get you started at OGS"
-featuredImage: ./ogs_guitars.png
+featuredImage: ./ogs_guitar_store.jpeg
 logo: ./ogs_tele_icon_crop.png
 ---
 
-New to guitar?  Here are a few things you'll need for lessons at Oakwood Guitar School:
+# **New to guitar?  Here are a few things you'll need for lessons at Oakwood Guitar School.**
 
-Guitar:
+---  
+## **A Guitar**
+---
 
 An acoustic guitar is recommended for new students, however electric guitar will also work just fine if that is what you have or are more interested in.  If the student is under 11 years old a smaller scale guitar is recommended, probably a 3/4 or half size guitar.  There are two types of acoustic guitars:
 
@@ -25,7 +27,9 @@ or alternately
 
 "I am starting guitar lessons and I would like to rent a full size steel string guitar for strumming chords."
 
-In addition to the guitar you will need:
+---  
+## **Additional Items**
+---
 
 - Binder: All lesson notes, printed music, tabs, exercises and extra materials can be kept in one binder for lessons.  You must bring this to all your lessons for maximum progress.
 - Guitar case: soft cases can be bought for relatively cheap, if you have an acoustic guitar a hard case and a humidifier is recommended for the dry winter months.
@@ -33,14 +37,19 @@ In addition to the guitar you will need:
 - Electronic tuner:  It is essential to tune your guitar every time you play, and an electronic tuner is the most efficient way to achieve this.  There are now many guitar tuning apps for iPhone, iPad and Android that are also quite good.
 -  Internet/email address:  The teacher will often send you songs, materials or links over the internet to save paper and customize your lesson experience.  Make sure to have an email address set up so that this can be done.  The teacher will also often require you to seek out materials on your own to bring to the lessons.
 
-Other tools:
+---  
+## **Other Tools**
+---
+
 - A metronome is a key component to being a good musician, and you can now find metronomes and drum machines on the internet for free, I recommend the following:
 www.metronomeonline.com/ - a simple online metronome
 www.onemotion.com/flash/drum-machine/ - an online flash drum machine that is really useful for keeping time in a more musical way than a metronome.
 
-Oakwood Guitar School Store:
+---
+## **Oakwood Guitar School Store**
+---
 
-Electronic Tuner (Snark Clip-On) - $15.00
-Capos - $20.00
-Electric Guitar Strings (Ernie Ball) - $7.00
-Acoustic Guitar Strings (D'Addario) - $8.00
+- Electronic Tuner (Snark Clip-On) - $15.00
+- Capos - $20.00
+- Electric Guitar Strings (Ernie Ball) - $7.00
+- Acoustic Guitar Strings (D'Addario) - $8.00

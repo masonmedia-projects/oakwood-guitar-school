@@ -22,7 +22,7 @@ export default function Template({
                 style={{width: '180px'}} 
                 fluid={frontmatter.logo.childImageSharp.fluid} />
                   <h1 className="site-title">{frontmatter.title}</h1>
-                  <h2 className="h5 font-weight-bold text-secondary">{frontmatter.subtitle}</h2>
+                  <h2 className="h4 font-weight-bold text-secondary">{frontmatter.subtitle}</h2>
                 </div>
                 {/* featuredImage */}
                 <Img 
@@ -73,15 +73,15 @@ export const pageQuery = graphql`
                 }
               }
         featuredImage {
-            childImageSharp {
-                fluid(
-                  maxWidth: 1075, 
-                  quality: 100, 
-                  grayscale: true,
-                  ) {
-                    ...GatsbyImageSharpFluid_tracedSVG
-                }
-            }
+          childImageSharp {
+              fluid(
+                maxWidth: 1075, 
+                quality: 100, 
+                grayscale: true,
+                ) {
+                  ...GatsbyImageSharpFluid
+              }
+          }
         }
       }
     }

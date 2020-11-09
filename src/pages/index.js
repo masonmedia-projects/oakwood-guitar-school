@@ -16,8 +16,8 @@ export default function Home({data}) {
           durationFadeIn={1500}
           style={{position: 'absolute', zIndex: '0'}}
           fluid={data.imageOne.childImageSharp.fluid} alt="Oakwood Guitar School" />
-          <Col md={{span: 6, offset: 6}} className="min-100  align-left-center p-5">
-            <div className="bg-white rounded p-5">
+          <Col md={{span: 6, offset: 6}} className="min-100  align-left-bottom p-5">
+            <div className="w-100 bg-white shadow-lg rounded p-5">
             <Img 
             className="w-50 my-3" 
             fluid={data.imageIcon.childImageSharp.fluid} alt="Oakwood Guitar School logo" />
@@ -237,7 +237,7 @@ export const fluidImage = graphql`
   fragment fluidImage on File {
     childImageSharp {
       fluid(maxWidth: 2000, quality: 100) {
-        ...GatsbyImageSharpFluid_tracedSVG
+        ...GatsbyImageSharpFluid
       }
     }
   }
@@ -246,9 +246,13 @@ export const fluidImage = graphql`
 export const pageQuery = graphql`
   query {
     imageIcon: file(relativePath: { eq: "ogs_tele_icon_crop.png" }) {
-      ...fluidImage
+      childImageSharp {
+        fluid(maxWidth: 2000, quality: 100) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
     }
-    imageOne: file(relativePath: { eq: "ogs_banner_2.png" }) {
+    imageOne: file(relativePath: { eq: "ogs_guitars.png" }) {
       ...fluidImage
     }
     imageTwo: file(relativePath: { eq: "ogs_2.png" }) {
