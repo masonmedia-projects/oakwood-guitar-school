@@ -13,12 +13,6 @@ export default function Template({
   let featuredImgFluid = post.frontmatter.featuredImage.childImageSharp.fluid
   return (
       <Layout>
-          {/* <Row className="min-50 p-0 m-0 bg-strat">
-              <Col sm={12} className="align-center p-5">
-                <h1 className="site-title mt-5 pt-5 px-5">{frontmatter.title}</h1>
-                <h2 className="h5 mb-5 font-weight-bold text-secondary">{frontmatter.subtitle}</h2>
-              </Col>
-          </Row> */}
           <Row className="min-100 p-0 m-0">
               <Col sm={12} className="align-left-bottom p-0">
                 <div className="relative z-1 drop-shadow bg-texture p-5 m-3 rounded">

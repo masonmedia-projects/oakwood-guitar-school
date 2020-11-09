@@ -58,7 +58,7 @@ export default function Menu() {
                 <div key={node.id}>
                     <AniLink 
                     className="nav-link" 
-                    cover 
+                    cover bg="#000" 
                     to={node.frontmatter.slug}>{node.frontmatter.title}</AniLink>
                 </div>
                 ))}

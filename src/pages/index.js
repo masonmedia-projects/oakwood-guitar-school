@@ -19,8 +19,8 @@ export default function Home({data}) {
           <Col md={{span: 6, offset: 6}} className="min-100  align-left-center p-5">
             <div className="bg-white rounded p-5">
             <Img 
-          className="w-50 my-3" 
-          fluid={data.imageIcon.childImageSharp.fluid} alt="Oakwood Guitar School" />
+            className="w-50 my-3" 
+            fluid={data.imageIcon.childImageSharp.fluid} alt="Oakwood Guitar School logo" />
               <h1 className="site-title">
                 Oakwood
                 <span className="d-table">Guitar</span>
@@ -46,7 +46,9 @@ export default function Home({data}) {
                 </h1>
                 <h2 className="h4 text-muted font-weight-bold">At OGS we provide fun, engaging, goal-oriented music lessons for students of all ages.</h2>
                 <p className="my-3">Oakwood Guitar School is a well equipped home studio that provides a comfortable, relaxed learning environment for beginner to advanced guitar students, both children and adults of any age. Based in Toronto we service the areas of Regal Heights, Humewood, Hillcrest Village, Wychwood, Cedarvale, Forest Hill and St. Clair West. We also offer lessons over Zoom, Facetime, Skype or in home.</p>
-                <Button variant="dark">Learn more</Button>
+                <AniLink cover to="/why-ogs">
+                  <Button variant="dark" className="mt-4 shadow">Learn more</Button>
+                </AniLink>
               </Col>
             </Row>
           </Col>
@@ -60,7 +62,7 @@ export default function Home({data}) {
             </h1>
             <h2 className="h5 font-weight-bold">Some reasons why Oakwood Guitar School is a great place to learn</h2>
           </Col>
-          <Col lg={3} md={6} className="align-left-center p-5">
+          <Col lg={3} md={6} className="align-left-top p-5">
             <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-users" width="44" height="44" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#14CFA0" fill="none" strokeLinecap="round" strokeLinejoin="round">
               <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
               <circle cx="9" cy="7" r="4" />
@@ -70,7 +72,9 @@ export default function Home({data}) {
             </svg>
             <h5 className="py-3">Experienced Teachers</h5>
             <p>Our teachers are university-educated, active professional musicians with years of experience playing and teaching music.</p>
-            <Button variant="outline-light" className="mt-4 shadow">Learn more</Button>
+            <AniLink cover to="/why-ogs">
+              <Button variant="outline-light" className="mt-4 shadow">Learn more</Button>
+            </AniLink>
           </Col>
           
           <Col lg={3} md={6} className="align-left-top p-5">
@@ -85,9 +89,10 @@ export default function Home({data}) {
           </svg>
             <h5 class="py-3">All Ages & Levels</h5>
             <p>We teach students of all ages, abilities, and experience levels. Whether beginner or advanced, we can help you achieve your goals.</p>
-            <Button variant="outline-light" className="mt-4 shadow">Learn more</Button>
+            <AniLink cover to="/why-ogs">
+              <Button variant="outline-light" className="mt-4 shadow">Learn more</Button>
+            </AniLink>
           </Col>
-
 
           <Col lg={3} md={6} className="align-left-top p-5">
           <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-player-skip-forward" width="44" height="44" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#14CFA0" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -97,8 +102,11 @@ export default function Home({data}) {
           </svg>
             <h5 class="py-3">Perform and Record</h5>
             <p>At the end of each semester we offer recordings and recitals as an opportunity for our students to show off their new skills to friends & family!</p>
-             <Button variant="outline-light" className="mt-4 shadow">Learn more</Button>
+            <AniLink cover to="/why-ogs">
+              <Button variant="outline-light" className="mt-4 shadow">Learn more</Button>
+            </AniLink>
           </Col>
+
           <Col lg={3} md={6} className="align-left-top p-5">
             <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-certificate" width="44" height="44" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#14CFA0" fill="none" strokeLinecap="round" strokeLinejoin="round">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -111,11 +119,13 @@ export default function Home({data}) {
               </svg>
             <h5 class="py-3">Certified Programs</h5>
             <p>We teach certified programs from the Registry of Guitar Tutors and Conservatory Canada upon request in addition to essential skills and repertoire.</p>
-            <Button variant="outline-light" className="mt-4 shadow">Learn more</Button>
+            <AniLink cover to="/why-ogs">
+              <Button variant="outline-light" className="mt-4 shadow">Learn more</Button>
+            </AniLink>
           </Col>
         </Row>
 
-      {/* what you need */}
+        {/* what you need */}
         <Row className="min-100 p-0 m-0">
           <Col sm={12} className="align-left-center">
           <Img 
