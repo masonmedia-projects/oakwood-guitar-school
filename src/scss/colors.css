@@ -1,0 +1,91 @@
+.ogs-green {
+  color: #14CFA0 !important;
+}
+
+.bg-ogs-green {
+  background-color: #14CFA0 !important;
+}
+
+.bg-black {
+  background-color: #000;
+}
+
+.bg-black-op {
+  background: linear-gradient(to right, transparent, transparent, rgba(0, 0, 0, 0.5), black);
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.bg-hotpink {
+  background-color: #ff1495 !important;
+}
+
+.bg-orange {
+  background-color: #FF4A00 !important;
+}
+
+.bg-lightblue {
+  background-color: #87C1D5 !important;
+}
+
+.bg-blue {
+  background-color: #0091D1 !important;
+}
+
+.bg-goldenrod {
+  background-color: #FFD500 !important;
+}
+
+.bg-lightgrey {
+  background-color: #E5E5E5 !important;
+}
+
+.bg-black {
+  background-color: #161616 !important;
+}
+
+.bg-purple {
+  background-color: #642EC7 !important;
+}
+
+.bg-pink {
+  background-color: #FF1495 !important;
+}
+
+.bg-teal {
+  background-color: #019D97 !important;
+}
+
+.bg-mustard {
+  background-color: #FFDE59 !important;
+}
+
+.bg-yellow {
+  background-color: yellow !important;
+}
+
+.text-yellow {
+  color: yellow !important;
+}
+
+.text-pink {
+  color: #FF1495 !important;
+}
+
+.text-lime {
+  color: lime !important;
+}
+
+.text-turquoise {
+  color: turquoise !important;
+}
+
+.bg-angle-1 {
+  background: linear-gradient(40deg, #ffde59 30%, #019d97 30%);
+}
+
+.bg-angle-2 {
+  background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+}
