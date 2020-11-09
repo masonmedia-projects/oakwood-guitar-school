@@ -30,6 +30,7 @@ export default function Home({data}) {
           </Col>
         </Row>
 
+
         {/* what we do */}
         <Row className="min-100 p-0 m-0">
           <Col sm={12} className="p-0">
@@ -40,7 +41,7 @@ export default function Home({data}) {
           fluid={data.imageTwo.childImageSharp.fluid} alt="Oakwood Guitar School" />
           {/* embed row + col */}
             <Row>
-              <Col lg={6} className="align-left-center bg-white border-top border-bottom border-left p-5 m-5">
+              <Col lg={6} className="align-left-center bg-white rounded shadow-lg p-5 m-5">
                 <h1 className="section-title mb-5">
                   What We Do.
                 </h1>
@@ -135,7 +136,7 @@ export default function Home({data}) {
           fluid={data.imageFour.childImageSharp.fluid} alt="Oakwood Guitar School" />
           {/* embed row + col */}
             <Row>
-              <Col lg={6} className="align-left-center bg-white border-top border-bottom border-left p-5 m-5">
+              <Col lg={6} className="align-left-center bg-white shadow-lg rounded p-5 m-5">
                 <h1 className="section-title pt-5 mb-5">
                   What You Need.
                 </h1>
@@ -171,28 +172,35 @@ export default function Home({data}) {
 
         {/* location */}
         <Row className="min-100 p-0 m-0">
-          <Col sm={12} className="align-left-center">
+          <Col sm={12} className="align-left-center p-3">
           <Img 
-          className="w-100 h-100" 
+          className="w-100 h-100 left" 
           durationFadeIn={1500}
           style={{position: 'absolute', objectFit: 'cover', zIndex: '-1'}}
           fluid={data.imageSix.childImageSharp.fluid} alt="Oakwood Guitar School" />
           {/* embed row + col */}
-            <Row>
-              <Col lg={6} className="align-left-center bg-white border-top border-bottom border-left shadow rounded p-5 m-5">
+            <Row className="m-3 shadow-lg rounded">
+              <Col lg={6} className="align-left-center bg-white p-5">
                 <h1 className="section-title pt-5 mb-5">
                   Location & Hours.
                 </h1>
-                <h2 className="h4 text-muted font-weight-bold">We are conveniently located at 113 Alberta Avenue, near the intersection of St. Clair and Oakwood Avenue.</h2>
+                <h2 className="h4 text-muted font-weight-bold">OGS is conveniently located in Toronto's west-end, with easy car and ttc access.</h2>
                   <ul className="list-unstyled my-3">
                     <li><span className="font-weight-bold">Phone • </span>416.732.0764</li>
-                    <li><span className="font-weight-bold">Email • </span> info@oakwoodguitarschool.com</li>
+                    <li><span className="font-weight-bold">Email • </span> <a href="mailto:info@oakwoodguitarschool.com">info@oakwoodguitarschool.com</a></li>
                     <li><span className="font-weight-bold">Address • </span>113 Alberta Avenue, Toronto, Ontario</li>
                   </ul>
-                  <p>OGS operates Monday-Friday between 3pm-10pm. In cases, we offer scheduling flexibility if students require aternate lesson times or lesson makeup options. Please see our <AniLink cover to="/rates-policies" className="font-weight-bold">rates & policies</AniLink> page for more details, or inquire for more information.</p>
-                  <a href="mailto:neil@neilwhitford.com">
-                    <Button variant="dark">Contact us.</Button>
+                  <p>Oakwood Guitar School is located in downtown Toronto's Wychwood area, and operates Monday-Friday between 3pm-10pm. In cases, we offer scheduling flexibility if students require aternate lesson times or lesson makeup options. Please see our <AniLink cover to="/rates-policies" className="font-weight-bold">rates & policies</AniLink> page for more details, or inquire for more information.</p>
+                  <a href="mailto:info@oakwoodguitarschool.com">
+                    <Button className="my-3" variant="dark">Contact us</Button>
                   </a>
+              </Col>
+              <Col lg={6} className="p-0 m-0 min-50">
+                <Img 
+                className="w-100 h-100" 
+                durationFadeIn={1500}
+                style={{position: 'absolute', objectFit: 'cover', zIndex: '-1'}}
+                fluid={data.imageMap.childImageSharp.fluid} alt="Oakwood Guitar School" />
               </Col>
             </Row>
           </Col>
@@ -259,6 +267,9 @@ export const pageQuery = graphql`
       ...fluidImage
     }
     imageSeven: file(relativePath: { eq: "ogs_6.png" }) {
+      ...fluidImage
+    }
+    imageMap: file(relativePath: { eq: "ogs_map_2.png" }) {
       ...fluidImage
     }
     
