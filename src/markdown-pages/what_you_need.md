@@ -25,9 +25,9 @@ An acoustic guitar is recommended for new students, however electric guitar will
 
 If you aren't sure about purchasing a guitar as a new student, I recommend a rental at Long and Mcquade which is very affordable and offer a rent-to-own on their instruments.  They are located at Bloor and Ossington, here is an example of what you might say:
 
-"I am looking for a half or 3/4 size nylon string guitar to rent for my 9 year old son who is starting guitar lessons this year.  Do you have anything you recommend?"
+"I am looking for a half or 3/4 size nylon string guitar to rent for my 9 year old son who is starting guitar lessons this year.  Do you have anything you recommend?".
 
-or alternately
+Or alternately:
 
 "I am starting guitar lessons and I would like to rent a full size steel string guitar for strumming chords."
 

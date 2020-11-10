@@ -27,7 +27,7 @@ export default function Template({
                 {/* featuredImage */}
                 <Img 
                 className="img-full" 
-                fadeIn={2000}
+                durationFadeIn={1500}
                 placeholderStyle={{ backgroundColor: `black` }}
                 style={{position: 'absolute', zIndex: '0'}}
                 fluid={frontmatter.featuredImage.childImageSharp.fluid} />
@@ -42,6 +42,7 @@ export default function Template({
                 className="mb-4" 
                 style={{width: '180px'}} 
                 fluid={frontmatter.logo.childImageSharp.fluid} />
+                <h6 className="text-muted font-weight-light text-uppercase mb-3">Oakwood Guitar School</h6>
                 {/* body */}
                 <div className=""
                 dangerouslySetInnerHTML={{ __html: html }}
