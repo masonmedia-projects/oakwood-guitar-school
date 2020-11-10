@@ -53,27 +53,6 @@ export default function Home({data}) {
             </div>
           </Col>
         </Row>
-        
-        {/* banner tele */}
-        <Row className="min-100 p-0 m-0">
-          <Img 
-          className="img-full left" 
-          durationFadeIn={1500}
-          placeholderStyle={{ backgroundColor: `black` }}
-          style={{position: 'absolute', zIndex: '0'}}
-          fluid={data.imageThree.childImageSharp.fluid} alt="Oakwood Guitar School" />
-          <Col md={6} className="min-100 align-left-center text-light relative z-1 p-5">
-            <Img 
-            className="my-3 drop-shadow"
-            style={{width: '180px'}} 
-            fluid={data.imageIcon.childImageSharp.fluid} alt="Oakwood Guitar School logo" />
-              <h1 className="site-title drop-shadow text-shadow">
-                <span className="pr-2">Oakwood</span>
-                <span className="d-table">Guitar</span>
-                <span className="d-table">School</span>
-              </h1>
-          </Col>
-        </Row>
 
         {/* what we do */}
         <Row className="min-100 p-0 m-0 relative z-1">
