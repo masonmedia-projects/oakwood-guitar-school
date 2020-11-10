@@ -11,8 +11,7 @@ body {
 }
 
 ul {
-    // @extend .list-unstyled;
-    @extend .pl-3;
+    padding-left: 1rem;
     list-style-type: square;
 }
 
@@ -20,4 +19,9 @@ ul li::marker {
     color: grey; /* Change the color */
     font-weight: light; /* If you want it to be bold */
     width: 1em; /* Also needed for space (tweak if needed) */
+  }
+
+  footer ul {
+      @extend .list-unstyled;
+      font-size: 1.25rem;
   }

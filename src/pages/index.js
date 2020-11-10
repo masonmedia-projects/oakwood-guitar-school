@@ -4,6 +4,7 @@ import Layout from "../components/Layout";
 import { Row, Col, Button, Container } from "react-bootstrap";
 import Img from "gatsby-image"
 import AniLink from "gatsby-plugin-transition-link/AniLink";
+import Footer from "../components/Footer";
 
 export default function Home({data}) {
 
@@ -119,11 +120,11 @@ export default function Home({data}) {
           </Col>
 
           <Col lg={3} md={6} className="align-left-top p-5">
-          <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-player-skip-forward" width="44" height="44" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#14CFA0" fill="none" strokeLinecap="round" strokeLinejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-            <path d="M4 5v14l12 -7z" />
-            <line x1="20" y1="5" x2="20" y2="19" />
-          </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-player-skip-forward" width="44" height="44" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#14CFA0" fill="none" strokeLinecap="round" strokeLinejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+              <path d="M4 5v14l12 -7z" />
+              <line x1="20" y1="5" x2="20" y2="19" />
+            </svg>
             <h5 class="py-3">Perform and Record</h5>
             <p>At the end of each semester we offer recordings and recitals as an opportunity for our students to show off their new skills to friends & family!</p>
             <AniLink cover to="/why-ogs">
@@ -245,6 +246,7 @@ export default function Home({data}) {
               </div>
           </Col>
         </Row>
+        <Footer />
 
       </Layout>
     </div>
