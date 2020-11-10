@@ -34,7 +34,7 @@ Children and adults of all levels and abilities are welcome! Students younger th
 The instructors at **Oakwood Guitar School** are also active musicians who play regularly with a vide variety of groups, spanning a wide variety of styles. We provide music for private parties, weddings, and corporate events. Please contact us for further information.
 
 ---  
-### **More reasons why Oakwood Guitar School is a great place to learn**
+## **More reasons why Oakwood Guitar School is a great place to learn**
 ---
 
 - **Highly qualified teachers** • our teachers have each taught thousands of lessons to students of all abilities. They are university educated with Bachelor of Music Degrees from leading Canadian universities. Furthermore they are active musicians who can often be seen and heard performing around Toronto - and the country - in a variety of musical groups and settings.

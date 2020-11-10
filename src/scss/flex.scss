@@ -22,6 +22,10 @@
     @include flex(column, center, flex-end, right);
 }
 
+.align-right-bottom {
+    @include flex(column, flex-end, flex-end, right);
+}
+
 .align-center {
     @include flex(column, center, center, center);
 }

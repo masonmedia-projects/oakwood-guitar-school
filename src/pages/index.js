@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/Layout";
-import { Row, Col, Button } from "react-bootstrap";
+import { Row, Col, Button, Container } from "react-bootstrap";
 import Img from "gatsby-image"
 import AniLink from "gatsby-plugin-transition-link/AniLink";
 
@@ -10,7 +10,8 @@ export default function Home({data}) {
   return (
     <div>
       <Layout>
-        <Row className="min-100 p-0 m-0">
+        {/* banner light card */}
+        {/* <Row className="min-100 p-0 m-0">
           <Img 
           className="img-full left" 
           durationFadeIn={1500}
@@ -28,11 +29,54 @@ export default function Home({data}) {
               </h1>
             </div>
           </Col>
+        </Row> */}
+        
+        {/* banner guitars */}
+        <Row className="min-100 p-0 m-0">
+          <Img 
+          className="img-full left" 
+          durationFadeIn={1500}
+          placeholderStyle={{ backgroundColor: `black` }}
+          style={{position: 'absolute', zIndex: '0'}}
+          fluid={data.imageOne.childImageSharp.fluid} alt="Oakwood Guitar School" />
+          <div className="absolute left top z-0 w-100 min-100"></div>
+          <Col md={{span: 6, offset: 6}} className="min-100  align-left-bottom relative z-1 p-5">
+            <div className="w-100 bg-black text-light shadow-lg rounded p-5">
+            <Img 
+            className="w-50 my-3" 
+            fluid={data.imageIcon.childImageSharp.fluid} alt="Oakwood Guitar School logo" />
+              <h1 className="site-title">
+                Oakwood
+                <span className="d-table">Guitar</span>
+                <span className="d-table">School</span>
+              </h1>
+            </div>
+          </Col>
+        </Row>
+        
+        {/* banner tele */}
+        <Row className="min-100 p-0 m-0">
+          <Img 
+          className="img-full left" 
+          durationFadeIn={1500}
+          placeholderStyle={{ backgroundColor: `black` }}
+          style={{position: 'absolute', zIndex: '0'}}
+          fluid={data.imageThree.childImageSharp.fluid} alt="Oakwood Guitar School" />
+          <Col md={6} className="min-100 align-left-center text-light relative z-1 p-5">
+            <Img 
+            className="my-3 drop-shadow"
+            style={{width: '180px'}} 
+            fluid={data.imageIcon.childImageSharp.fluid} alt="Oakwood Guitar School logo" />
+              <h1 className="site-title drop-shadow text-shadow">
+                <span className="pr-2">Oakwood</span>
+                <span className="d-table">Guitar</span>
+                <span className="d-table">School</span>
+              </h1>
+          </Col>
         </Row>
 
-
         {/* what we do */}
-        <Row className="min-100 p-0 m-0">
+        <Row className="min-100 p-0 m-0 relative z-1">
           <Col sm={12} className="p-0">
           <Img 
           className="w-100 h-100" 
@@ -41,7 +85,7 @@ export default function Home({data}) {
           fluid={data.imageTwo.childImageSharp.fluid} alt="Oakwood Guitar School" />
           {/* embed row + col */}
             <Row>
-              <Col lg={6} className="align-left-center bg-white rounded shadow-lg p-5 m-5">
+              <Col lg={6} className="align-left-center bg-white rounded shadow-lg p-5 m-4">
                 <h1 className="section-title mb-5">
                   What We Do.
                 </h1>
@@ -136,42 +180,43 @@ export default function Home({data}) {
           fluid={data.imageFour.childImageSharp.fluid} alt="Oakwood Guitar School" />
           {/* embed row + col */}
             <Row>
-              <Col lg={6} className="align-left-center bg-white shadow-lg rounded p-5 m-5">
-                <h1 className="section-title pt-5 mb-5">
+              <Col lg={6} className="align-left-center bg-white shadow-lg rounded p-5 m-4">
+                <h1 className="section-title mb-5">
                   What You Need.
                 </h1>
-                <h2 className="h4 text-muted font-weight-bold">New to guitar?  Here are a few things you'll need for lessons at Oakwood Guitar School:</h2>
+                <h2 className="h4 text-muted font-weight-bold">New to guitar?  Here are a few things you'll need for lessons at Oakwood Guitar School</h2>
                 <p className="my-3">An acoustic guitar is recommended for new students, however electric guitar will also work just fine if that is what you have or what you're more interested in.  If the student is under 11 years old a smaller scale guitar is recommended, probably a 3/4 or half size guitar.</p>
-                <Button variant="dark">Learn more</Button>
+                <AniLink cover to="/what-you-need">
+                  <Button variant="dark" className="my-3">Learn more</Button>
+                </AniLink>
               </Col>
             </Row>
           </Col>
         </Row>
 
         {/* what happens in a lesson */}
-        <Row className="min-100 p-0 m-0">
-          <Col sm={12} className="align-left-center p-0">
+        <Row className="min-100 p-0 m-0 relative z-1">
           <Img 
           className="w-100 h-100" 
           durationFadeIn={1500}
           style={{position: 'absolute', objectFit: 'cover', zIndex: '0'}}
           fluid={data.imageFive.childImageSharp.fluid} alt="Oakwood Guitar School" />
-          {/* embed row + col */}
-            <Row className="p-0 m-0">
-              <Col lg={6} className="align-left-center bg-ogs-green text-light drop-shadow rounded p-5 m-4 ml-auto">
-                <h1 className="section-title pt-5 mb-5">
-                  What happens in a lesson?
-                </h1>
-                <h2 className="h4 font-weight-bold">Here's how a typical lesson works at Oakwood Guitar School</h2>
-                <p className="my-3">Lessons at OGS are personalized and tailored to the needs of each individual student. However they do follow a relatively consistent routine which includes: warm ups and stretches, technical exercises, ear training, rhythm practice, repertoire development, and other essential skills.</p>
-                <Button variant="light">Find out more</Button>
-              </Col>
-            </Row>
+          <Col lg={{span: 8, offset: 4}} className="align-left-center p-5 min-50">
+            <div className="bg-ogs-green text-light shadow-lg rounded m-4 p-5">
+              <h1 className="section-title mb-5">
+                What happens in a lesson?
+              </h1>
+              <h2 className="h4 font-weight-bold">Here's how a typical lesson works at Oakwood Guitar School</h2>
+              <p className="my-3">Lessons at OGS are personalized and tailored to the needs of each individual student. However they do follow a relatively consistent routine which includes: warm ups and stretches, technical exercises, ear training, rhythm practice, repertoire development, and other essential skills.</p>
+              <AniLink cover to="/why-ogs">
+                <Button variant="light" className="my-3">Learn more</Button>
+              </AniLink>
+            </div>
           </Col>
         </Row>
 
         {/* location */}
-        <Row className="min-100 p-0 m-0">
+        <Row className="min-100 p-0 m-0 relative z-1">
           <Col sm={12} className="align-left-center p-3">
           <Img 
           className="w-100 h-100 left" 
@@ -181,7 +226,7 @@ export default function Home({data}) {
           {/* embed row + col */}
             <Row className="m-3 shadow-lg rounded">
               <Col lg={6} className="align-left-center bg-white p-5">
-                <h1 className="section-title pt-5 mb-5">
+                <h1 className="section-title mb-5">
                   Location & Hours.
                 </h1>
                 <h2 className="h4 text-muted font-weight-bold">OGS is conveniently located in Toronto's west-end, with easy car and ttc access.</h2>
@@ -245,21 +290,29 @@ export const fluidImage = graphql`
 
 export const pageQuery = graphql`
   query {
-    imageIcon: file(relativePath: { eq: "ogs_tele_icon_crop.png" }) {
+    imageIcon: file(relativePath: { eq: "ogs_tele_white_crop.png" }) {
       childImageSharp {
-        fluid(maxWidth: 2000, quality: 100) {
+        fluid {
           ...GatsbyImageSharpFluid_tracedSVG
         }
       }
     }
     imageOne: file(relativePath: { eq: "ogs_guitars.png" }) {
-      ...fluidImage
+      childImageSharp {
+        fluid(grayscale: true) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
     }
     imageTwo: file(relativePath: { eq: "ogs_2.png" }) {
       ...fluidImage
     }
-    imageThree: file(relativePath: { eq: "ogs_guitars.png" }) {
-      ...fluidImage
+    imageThree: file(relativePath: { eq: "ogs_guitar_neck.png" }) {
+      childImageSharp {
+        fluid(grayscale: true) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
     }
     imageFour: file(relativePath: { eq: "ogs_blue.png" }) {
       ...fluidImage
