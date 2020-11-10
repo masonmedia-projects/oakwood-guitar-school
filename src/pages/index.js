@@ -201,8 +201,8 @@ export default function Home({data}) {
           durationFadeIn={1500}
           style={{position: 'absolute', objectFit: 'cover', zIndex: '0'}}
           fluid={data.imageFive.childImageSharp.fluid} alt="Oakwood Guitar School" />
-          <Col lg={{span: 8, offset: 4}} className="align-left-center p-5 min-50">
-            <div className="bg-ogs-green text-light shadow-lg rounded m-4 p-5">
+          <Col lg={{span: 8, offset: 4}} className="align-left-center p-4 min-50">
+            <div className="bg-ogs-green text-light shadow-lg rounded p-5">
               <h1 className="section-title mb-5">
                 What happens in a lesson?
               </h1>
@@ -216,39 +216,34 @@ export default function Home({data}) {
         </Row>
 
         {/* location */}
-        <Row className="min-100 p-0 m-0 relative z-1">
-          <Col sm={12} className="align-left-center p-3">
+        <Row className="min-100 p-4 m-0 relative z-1">
           <Img 
           className="w-100 h-100 left" 
           durationFadeIn={1500}
           style={{position: 'absolute', objectFit: 'cover', zIndex: '-1'}}
           fluid={data.imageSix.childImageSharp.fluid} alt="Oakwood Guitar School" />
-          {/* embed row + col */}
-            <Row className="m-3 shadow-lg rounded">
-              <Col lg={6} className="align-left-center bg-white p-5">
-                <h1 className="section-title mb-5">
-                  Location & Hours.
-                </h1>
-                <h2 className="h4 text-muted font-weight-bold">OGS is conveniently located in Toronto's west-end, with easy car and ttc access.</h2>
-                  <ul className="list-unstyled my-3">
-                    <li><span className="font-weight-bold">Phone • </span>416.732.0764</li>
-                    <li><span className="font-weight-bold">Email • </span> <a href="mailto:info@oakwoodguitarschool.com">info@oakwoodguitarschool.com</a></li>
-                    <li><span className="font-weight-bold">Address • </span>113 Alberta Avenue, Toronto, Ontario</li>
-                  </ul>
-                  <p>Oakwood Guitar School is located in downtown Toronto's Wychwood area, and operates Monday-Friday between 3pm-10pm. In cases, we offer scheduling flexibility if students require aternate lesson times or lesson makeup options. Please see our <AniLink cover to="/rates-policies" className="font-weight-bold">rates & policies</AniLink> page for more details, or inquire for more information.</p>
-                  <a href="mailto:info@oakwoodguitarschool.com">
-                    <Button className="my-3" variant="dark">Contact us</Button>
-                  </a>
-              </Col>
-              <Col lg={6} className="p-0 m-0 min-50">
-                <Img 
-                className="w-100 h-100" 
-                durationFadeIn={1500}
-                style={{position: 'absolute', objectFit: 'cover', zIndex: '-1'}}
-                fluid={data.imageMap.childImageSharp.fluid} alt="Oakwood Guitar School" />
-              </Col>
-            </Row>
-          </Col>
+            <Col lg={6} className="align-left-center bg-white p-5 border">
+              <h1 className="section-title mb-5">
+                Location & Hours.
+              </h1>
+              <h2 className="h4 text-muted font-weight-bold">OGS is conveniently located in Toronto's west-end, with easy car and ttc access.</h2>
+                <ul className="list-unstyled my-3">
+                  <li><span className="font-weight-bold">Phone • </span>416.732.0764</li>
+                  <li><span className="font-weight-bold">Email • </span> <a href="mailto:info@oakwoodguitarschool.com">info@oakwoodguitarschool.com</a></li>
+                  <li><span className="font-weight-bold">Address • </span>113 Alberta Avenue, Toronto, Ontario</li>
+                </ul>
+                <p>Oakwood Guitar School is located in downtown Toronto's Wychwood area, and operates Monday-Friday between 3pm-10pm. In cases, we offer scheduling flexibility if students require aternate lesson times or lesson makeup options. Please see our <AniLink cover to="/rates-policies" className="font-weight-bold">rates & policies</AniLink> page for more details, or inquire for more information.</p>
+                <a href="mailto:info@oakwoodguitarschool.com">
+                  <Button className="my-3" variant="dark">Contact us</Button>
+                </a>
+            </Col>
+            <Col lg={6} className="p-0 m-0 min-50">
+              <Img 
+              className="w-100 h-100" 
+              durationFadeIn={1500}
+              style={{position: 'absolute', objectFit: 'cover', zIndex: '-1'}}
+              fluid={data.imageMap.childImageSharp.fluid} alt="Oakwood Guitar School" />
+            </Col>
         </Row>
 
         {/* contact */}

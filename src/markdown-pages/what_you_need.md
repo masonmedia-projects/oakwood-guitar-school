@@ -16,8 +16,8 @@ logo: ./ogs_tele_icon_crop.png
 
 An acoustic guitar is recommended for new students, however electric guitar will also work just fine if that is what you have or are more interested in.  If the student is under 11 years old a smaller scale guitar is recommended, probably a 3/4 or half size guitar.  There are two types of acoustic guitars:
 
-- Steel string acoustic: This guitar requires more effort to play but is a more common type of guitar that you hear on most recordings of acoustic guitar.
-- Nylon string acoustic: These guitars were made to play classical music and their strings are softer on the fingers.  I recommend these for younger students to get started on.
+- **Steel string acoustic:** This guitar requires more effort to play but is a more common type of guitar that you hear on most recordings of acoustic guitar.
+- **Nylon string acoustic:** These guitars were made to play classical music and their strings are softer on the fingers.  I recommend these for younger students to get started on.
 
 ---
 ## **Guitar Rentals**
@@ -35,11 +35,11 @@ or alternately
 ## **Additional Items**
 ---
 
-- Binder: All lesson notes, printed music, tabs, exercises and extra materials can be kept in one binder for lessons.  You must bring this to all your lessons for maximum progress.
-- Guitar case: soft cases can be bought for relatively cheap, if you have an acoustic guitar a hard case and a humidifier is recommended for the dry winter months.
-- Capo:  This tool allows you to change keys to play familiar chords, so it is essential in learning a multitude of songs early on.  It is also a great teaching tool because it removes a great deal of pressure off the fretboard, allowing you to play longer as a beginner.
-- Electronic tuner:  It is essential to tune your guitar every time you play, and an electronic tuner is the most efficient way to achieve this.  There are now many guitar tuning apps for iPhone, iPad and Android that are also quite good.
--  Internet/email address:  The teacher will often send you songs, materials or links over the internet to save paper and customize your lesson experience.  Make sure to have an email address set up so that this can be done.  The teacher will also often require you to seek out materials on your own to bring to the lessons.
+- **Binder:** All lesson notes, printed music, tabs, exercises and extra materials can be kept in one binder for lessons.  You must bring this to all your lessons for maximum progress.
+- **Guitar case:** Soft cases can be bought for relatively cheap, if you have an acoustic guitar a hard case and a humidifier is recommended for the dry winter months.
+- **Capo:** This tool allows you to change keys to play familiar chords, so it is essential in learning a multitude of songs early on.  It is also a great teaching tool because it removes a great deal of pressure off the fretboard, allowing you to play longer as a beginner.
+- **Electronic tuner:**  It is essential to tune your guitar every time you play, and an electronic tuner is the most efficient way to achieve this.  There are now many guitar tuning apps for iPhone, iPad and Android that are also quite good.
+-  **Internet/email address:**  The teacher will often send you songs, materials or links over the internet to save paper and customize your lesson experience.  Make sure to have an email address set up so that this can be done.  The teacher will also often require you to seek out materials on your own to bring to the lessons.
 
 ---  
 ## **Other Tools**
