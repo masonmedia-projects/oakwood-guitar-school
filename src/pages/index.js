@@ -234,17 +234,17 @@ export default function Home({data}) {
           style={{position: 'absolute', objectFit: 'cover', zIndex: '-1'}}
           fluid={data.imageSeven.childImageSharp.fluid} alt="Oakwood Guitar School" />
           {/* embed row + col */}
-              <div className="align-center bg-light w-75 h-75 p-5 rounded-lg shadow">
+              <div className="align-center bg-texture w-75 h-75 p-5 rounded-lg shadow">
                 <h1 className="section-title mb-3">
                   Get started today!
                 </h1>
-                <h2 className="h4 text-muted font-weight-bold">Contact us for booking and more information.</h2>
-                <Button variant="dark" className="my-3">Get in touch</Button>
+                <h2 className="h4 text-muted font-weight-bold">Contact us for booking, more information, or any questions you may have.</h2>
+                <a href="mailto:info@oakwoodguitarschool.com">
+                  <Button variant="dark" className="my-3">Get in touch</Button>
+                </a>
               </div>
           </Col>
         </Row>
-        
-
 
       </Layout>
     </div>
