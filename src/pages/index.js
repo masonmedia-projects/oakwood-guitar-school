@@ -182,7 +182,7 @@ export default function Home({data}) {
           style={{position: 'absolute', objectFit: 'cover', zIndex: '0'}}
           fluid={data.imageFive.childImageSharp.fluid} alt="Oakwood Guitar School" />
           <Col lg={{span: 8, offset: 4}} className="align-left-center p-4 min-50">
-            <div className="align-left-center w-100 h-75 bg-ogs-green text-light shadow-lg rounded p-5">
+            <div className="bg-ogs-green text-light shadow-lg rounded p-5">
               <h1 className="section-title mb-5">
                 What happens in a lesson?
               </h1>
