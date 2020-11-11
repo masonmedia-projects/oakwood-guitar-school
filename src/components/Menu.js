@@ -1,6 +1,6 @@
 import React from 'react'
 import { useStaticQuery, graphql } from "gatsby"
-import { Nav, NavDropdown, Navbar } from 'react-bootstrap'
+import { Nav, NavDropdown, Navbar, Button } from 'react-bootstrap'
 import AniLink from 'gatsby-plugin-transition-link/AniLink'
 
 // export const pageQuery = graphql`
@@ -62,7 +62,7 @@ export default function Menu() {
                     to={node.frontmatter.slug}>{node.frontmatter.title}</AniLink>
                 </div>
                 ))}
-               
+                <Nav.Link href="mailto:info@oakwoodguitarschool.com">Contact</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
