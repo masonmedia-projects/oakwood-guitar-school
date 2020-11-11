@@ -46,9 +46,9 @@ Or alternately:
 ---
 
 **A metronome** is a key component to being a good musician, and you can now find metronomes and drum machines on the internet for free. I recommend the following:
-- <a href="http://www.metronomeonline.com" target="_blank">metronomeonline.com</a> - a simple online metronome.
-- <a href="https://www.onemotion.com/drum-machine/" target="_blank">onemotion.com/drum-machine</a> - an online flash drum machine that is really useful for keeping time in a more musical way than a metronome.
-- <a href="https://metronom.us/en/" target="_blank">metronom.us</a>
+- <a href="http://www.metronomeonline.com" target="_blank">**metronomeonline.com**</a> - a simple online metronome.
+- <a href="https://www.onemotion.com/drum-machine/" target="_blank">**onemotion.com/drum-machine**</a> - an online flash drum machine that is really useful for keeping time in a more musical way than a metronome.
+- <a href="https://metronom.us/en/" target="_blank">**metronom.us**</a>
 
 ---
 ## **Oakwood Guitar School Store**

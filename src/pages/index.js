@@ -59,7 +59,7 @@ export default function Home({data}) {
         <Row className="min-100 p-0 m-0 relative z-1">
           <Col sm={12} className="align-left-center">
           <Img 
-          className="w-100 h-100" 
+          className="w-100 h-100 left" 
           durationFadeIn={1500}
           style={{position: 'absolute', objectFit: 'cover', zIndex: '-1'}}
           fluid={data.imageTwo.childImageSharp.fluid} alt="Oakwood Guitar School" />
@@ -95,7 +95,7 @@ export default function Home({data}) {
               <path d="M16 3.13a4 4 0 0 1 0 7.75" />
               <path d="M21 21v-2a4 4 0 0 0 -3 -3.85" />
             </svg>
-            <h5 className="py-3">Experienced Teachers</h5>
+            <h5 className="py-3 border-bottom border-secondary mb-3 w-100">Experienced Teachers</h5>
             <p>Our teachers are university-educated, active professional musicians with years of experience playing and teaching music.</p>
             <AniLink cover to="/why-ogs">
               <Button variant="outline-light" className="mt-4 shadow">Learn more</Button>
@@ -112,7 +112,7 @@ export default function Home({data}) {
               <line x1="11" y1="12" x2="20" y2="12" />
               <line x1="11" y1="18" x2="20" y2="18" />
             </svg>
-            <h5 className="py-3">All Ages & Levels</h5>
+            <h5 className="py-3 border-bottom border-secondary mb-3 w-100">All Ages & Levels</h5>
             <p>We teach students of all ages, abilities, and experience levels. Whether beginner or advanced, we can help you achieve your goals.</p>
             <AniLink cover to="/why-ogs">
               <Button variant="outline-light" className="mt-4 shadow">Learn more</Button>
@@ -125,7 +125,7 @@ export default function Home({data}) {
               <path d="M4 5v14l12 -7z" />
               <line x1="20" y1="5" x2="20" y2="19" />
             </svg>
-            <h5 className="py-3">Perform and Record</h5>
+            <h5 className="py-3 border-bottom border-secondary mb-3 w-100">Perform and Record</h5>
             <p>At the end of each semester we offer recordings and recitals as an opportunity for our students to show off their new skills to friends & family!</p>
             <AniLink cover to="/why-ogs">
               <Button variant="outline-light" className="mt-4 shadow">Learn more</Button>
@@ -142,7 +142,7 @@ export default function Home({data}) {
                 <line x1="6" y1="12" x2="9" y2="12" />
                 <line x1="6" y1="15" x2="8" y2="15" />
               </svg>
-            <h5 className="py-3">Certified Programs</h5>
+            <h5 className="py-3 border-bottom border-secondary mb-3 w-100">Certified Programs</h5>
             <p>We teach certified programs from the Registry of Guitar Tutors and Conservatory Canada upon request in addition to essential skills and repertoire.</p>
             <AniLink cover to="/why-ogs">
               <Button variant="outline-light" className="mt-4 shadow">Learn more</Button>
@@ -210,7 +210,8 @@ export default function Home({data}) {
                 <ul className="list-unstyled my-3">
                   <li><span className="font-weight-bold">Phone • </span>416.732.0764</li>
                   <li><span className="font-weight-bold">Email • </span> <a href="mailto:info@oakwoodguitarschool.com">info@oakwoodguitarschool.com</a></li>
-                  <li><span className="font-weight-bold">Address • </span>113 Alberta Avenue, Toronto, Ontario</li>
+                  <li><span className="font-weight-bold">Address • </span>
+                  <a href="https://www.google.com/maps/place/113+Alberta+Ave,+Toronto,+ON+M6H+2S1/@43.6785295,-79.435167,17z/data=!3m1!4b1!4m5!3m4!1s0x882b34796c431333:0x7e33b5abdcc0a799!8m2!3d43.6785295!4d-79.4329783">113 Alberta Avenue, Toronto, Ontario</a></li>
                 </ul>
                 <p>Oakwood Guitar School is located in downtown Toronto's Wychwood area, and operates Monday-Friday between 3pm-10pm. In cases, we offer scheduling flexibility if students require aternate lesson times or lesson makeup options. Please see our <AniLink cover to="/rates-policies" className="font-weight-bold">rates & policies</AniLink> page for more details, or inquire for more information.</p>
                 <a href="mailto:info@oakwoodguitarschool.com">
@@ -228,11 +229,6 @@ export default function Home({data}) {
 
         {/* contact */}
         <Row className="min-100 bg-black p-4 m-0 relative z-1">
-          {/* <Img 
-          className="w-100 h-100 left bottom" 
-          durationFadeIn={1500}
-          style={{position: 'absolute', objectFit: 'cover', zIndex: '-1'}}
-          fluid={data.imageSeven.childImageSharp.fluid} alt="Oakwood Guitar School" /> */}
           <Col lg={6} className="p-0 m-0 min-50">
             <Img 
             className="w-100 h-100" 
@@ -250,17 +246,6 @@ export default function Home({data}) {
               </a>
             </Col>
             
-
-
-            {/* <Col lg={{span: 8}} className="align-left-center p-4">
-                <h1 className="section-title mb-3">
-                  Get started today!
-                </h1>
-                <h2 className="h4 text-muted font-weight-bold">Contact us for booking, more information, or any questions you may have.</h2>
-                <a href="mailto:info@oakwoodguitarschool.com">
-                  <Button variant="dark" className="my-3">Get in touch</Button>
-                </a>
-            </Col> */}
         </Row>
         <Footer />
 

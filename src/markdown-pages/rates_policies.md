@@ -37,7 +37,8 @@ logo: ./ogs_tele_icon_crop.png
 ## **More detailed information**
 ---
 
-**Scheduling:**
+##### **Scheduling:**  
+---
 
 - A specific time slot and day will be assigned to each student, the student must attend an average of three lessons per month to ensure their time slot (excluding teacher absences).
 - If a student cannot make their regular time slot, they may re-schedule on a case by case basis.
@@ -46,13 +47,15 @@ logo: ./ogs_tele_icon_crop.png
 - The teacher reserves the right to provide a qualified substitute in case of absence.  
 
 ---
-**Invoicing and Payment:**
+##### **Invoicing and Payment:**  
+---
 
 - Oakwood Guitar School sends an automatic invoice on the last day of each month for lessons to be paid for the following month.  Payment is due by the 15th of the month.  Please contact directly if you notice any discrepancies in your invoice.
 - Payment can be made by personal cheque or online through the student portal.  Please contact us if you haven't received a login name and password.  
 
 ---
-**Referral, Travel fees, Termination**
+##### **Referral, Travel fees, Termination**  
+---
 
 **Lesson Referral Bonus:** Any student who directly refers another student who enrols at Oakwood Guitar School will receive a credit for one 30 minute lesson ($27.50) on their next invoice.  
 

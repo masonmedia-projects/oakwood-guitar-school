@@ -26,27 +26,18 @@ code {
 }
 
 .site-title {
-  font-size: 15vmin;
+  font-size: 12vmin;
   line-height: 83%;
   letter-spacing: -6px;
   margin-bottom: 15px;
 }
 
-@media (max-width: 601px) {
-  .site-title {
-    font-size: 12vmin;
-    line-height: 83%;
-    letter-spacing: -3px;
-    margin-bottom: 15px;
-  }
-}
-
 .section-title {
-  font-size: 10vmin;
+  font-size: 9vmin;
   font-weight: 900;
-  letter-spacing: -3px;
+  letter-spacing: -6px;
   text-decoration: none;
-  line-height: 100%;
+  line-height: 83%;
   margin-top: 0;
 }
 
@@ -118,5 +109,18 @@ code {
   #home_about .col-sm-12 {
     background: rgba(255, 255, 255, 0.9);
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  }
+}
+
+@media (max-width: 601px) {
+  .site-title {
+    font-size: 12vmin;
+    letter-spacing: -3px;
+  }
+  .section-title {
+    letter-spacing: -3px;
+  }
+  p {
+    font-size: 18px;
   }
 }
