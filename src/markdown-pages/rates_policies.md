@@ -60,4 +60,8 @@ logo: ./ogs_tele_icon_crop.png
 - Within 3KM of Oakwood Guitar School: $20.00 fee per lesson
 - Within 6KM of Oakwood Guitar School: $40.00 fee per lesson
 
-**Lesson Termination:** Lessons must be terminated with 30-days notice, any paid lessons will be honoured or they may be forfeited by the student.  No refunds will be made for unused lessons.
+**Lesson Termination:** Lessons must be terminated with 30-days notice, any paid lessons will be honoured or they may be forfeited by the student.  No refunds will be made for unused lessons.  
+
+---
+##### **Please [contact us](mailto:info@oakwoodguitarschool.com "Oakwood Guitar School") for more information or if you have any questions!**
+---

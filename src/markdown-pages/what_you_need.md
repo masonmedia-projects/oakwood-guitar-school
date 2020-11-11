@@ -4,7 +4,7 @@ slug: "/what-you-need"
 date: "2020-05-04"
 title: "What You Need"
 subtitle: "A few things to get you started at OGS"
-featuredImage: ./ogs_guitar_store.jpeg
+featuredImage: ./ogs_strat_lights.jpg
 logo: ./ogs_tele_icon_crop.png
 ---
 
@@ -57,4 +57,8 @@ Or alternately:
 - Electronic Tuner (Snark Clip-On) - $15.00
 - Capos - $20.00
 - Electric Guitar Strings (Ernie Ball) - $7.00
-- Acoustic Guitar Strings (D'Addario) - $8.00
+- Acoustic Guitar Strings (D'Addario) - $8.00  
+
+---
+##### **Please [contact us](mailto:info@oakwoodguitarschool.com "Oakwood Guitar School") for more information or if you have any questions!**
+---
