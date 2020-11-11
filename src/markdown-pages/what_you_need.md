@@ -4,7 +4,7 @@ slug: "/what-you-need"
 date: "2020-05-04"
 title: "What You Need"
 subtitle: "A few things to get you started at OGS"
-featuredImage: ./ogs_strat_lights.jpg
+featuredImage: ./ogs_guitar_guy.jpg
 logo: ./ogs_tele_icon_crop.png
 ---
 
