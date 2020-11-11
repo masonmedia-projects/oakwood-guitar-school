@@ -154,7 +154,7 @@ export default function Home({data}) {
         <Row className="min-100 p-0 m-0">
           <Col sm={12} className="align-left-center">
           <Img 
-          className="w-100 h-100" 
+          className="w-100 h-100 left" 
           durationFadeIn={1500}
           style={{position: 'absolute', objectFit: 'cover', zIndex: '-1'}}
           fluid={data.imageFour.childImageSharp.fluid} alt="Oakwood Guitar School" />
@@ -198,7 +198,7 @@ export default function Home({data}) {
         {/* location */}
         <Row className="min-100 p-4 m-0 relative z-1">
           <Img 
-          className="w-100 h-100 left" 
+          className="w-100 h-100 left top" 
           durationFadeIn={1500}
           style={{position: 'absolute', objectFit: 'cover', zIndex: '-1'}}
           fluid={data.imageSix.childImageSharp.fluid} alt="Oakwood Guitar School" />
