@@ -34,7 +34,7 @@ export class Footer extends Component {
                         <Col xl={4} md={6} className="align-left-top px-5 pt-5 font-weight-bold">
                             <h3 className="font-weight-bold border-bottom border-secondary py-3 mb-3 w-100">Connect.</h3>
                             <ul className="list-unstyled">
-                                <a href="mailto:info@oakwoodguitarschool.com" target="_blank"><li>Email</li></a>
+                                <a href="mailto:info@oakwoodguitarschool.com" target="_blank"><li>Contact OGS</li></a>
                                 <a href="https://www.neilwhitford.com" target="_blank"><li>Neil Whitford</li></a>
                                 <a href="https://www.facebook.com/neil.whitford.58" target="_blank"><li>Facebook</li></a>
                                 <a href="https://www.instagram.com/whitfordguitar/" target="_blank"><li>Instagram</li></a>

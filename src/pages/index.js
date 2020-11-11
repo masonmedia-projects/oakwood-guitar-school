@@ -227,15 +227,32 @@ export default function Home({data}) {
         </Row>
 
         {/* contact */}
-        <Row className="min-100 p-0">
-          <Col sm={12} className="align-center">
-          <Img 
-          className="w-100 h-100 bottom" 
+        <Row className="min-100 bg-black p-4 m-0 relative z-1">
+          {/* <Img 
+          className="w-100 h-100 left bottom" 
           durationFadeIn={1500}
           style={{position: 'absolute', objectFit: 'cover', zIndex: '-1'}}
-          fluid={data.imageSeven.childImageSharp.fluid} alt="Oakwood Guitar School" />
-          {/* embed row + col */}
-              <div className="align-center bg-texture w-75 h-75 p-5 rounded-lg shadow">
+          fluid={data.imageSeven.childImageSharp.fluid} alt="Oakwood Guitar School" /> */}
+          <Col lg={6} className="p-0 m-0 min-50">
+            <Img 
+            className="w-100 h-100" 
+            durationFadeIn={1500}
+            style={{position: 'absolute', objectFit: 'cover', zIndex: '-1'}}
+            fluid={data.imageEight.childImageSharp.fluid} alt="Oakwood Guitar School" />
+          </Col>
+          <Col lg={6} className="align-left-center bg-texture p-5">
+            <h1 className="section-title mb-3">
+                Get started today!
+              </h1>
+              <h2 className="h4 text-muted font-weight-bold">Contact us to book a lesson, for more information, or any questions you may have.</h2>
+              <a href="mailto:info@oakwoodguitarschool.com">
+                <Button variant="dark" className="my-3">Get in touch</Button>
+              </a>
+            </Col>
+            
+
+
+            {/* <Col lg={{span: 8}} className="align-left-center p-4">
                 <h1 className="section-title mb-3">
                   Get started today!
                 </h1>
@@ -243,8 +260,7 @@ export default function Home({data}) {
                 <a href="mailto:info@oakwoodguitarschool.com">
                   <Button variant="dark" className="my-3">Get in touch</Button>
                 </a>
-              </div>
-          </Col>
+            </Col> */}
         </Row>
         <Footer />
 
@@ -299,7 +315,10 @@ export const pageQuery = graphql`
     imageSix: file(relativePath: { eq: "ogs_gretsch.jpeg" }) {
       ...fluidImage
     }
-    imageSeven: file(relativePath: { eq: "ogs_6.png" }) {
+    imageSeven: file(relativePath: { eq: "ogs_7.png" }) {
+      ...fluidImage
+    }
+    imageEight: file(relativePath: { eq: "ogs_instruments.jpg" }) {
       ...fluidImage
     }
     imageMap: file(relativePath: { eq: "ogs_map_2.png" }) {

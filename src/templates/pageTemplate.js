@@ -36,7 +36,7 @@ export default function Template({
           </Row>
           
           {/* text body */}
-          <Row className="min-50 p-4 m-0 bg-texture">
+          <Row className="min-50 p-2 m-0 bg-texture">
               <Col sm={12} className="align-left-center p-5">
                 {/* logo */}
                 <Img 
