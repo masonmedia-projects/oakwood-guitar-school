@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/Layout";
-import { Row, Col, Button, Container } from "react-bootstrap";
+import { Row, Col, Button } from "react-bootstrap";
 import Img from "gatsby-image"
 import AniLink from "gatsby-plugin-transition-link/AniLink";
 import Footer from "../components/Footer";
@@ -41,7 +41,7 @@ export default function Home({data}) {
           style={{position: 'absolute', zIndex: '0'}}
           fluid={data.imageOne.childImageSharp.fluid} alt="Oakwood Guitar School" />
           <div className="absolute left top z-0 w-100 min-100"></div>
-          <Col md={{span: 6, offset: 6}} className="min-100  align-left-bottom relative z-1 p-5">
+          <Col md={{span: 6, offset: 6}} className="min-100  align-left-bottom relative z-1 p-4">
             <div className="w-100 bg-black text-light shadow-lg rounded p-5">
             <Img 
             className="w-50 my-3" 

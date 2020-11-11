@@ -1,6 +1,6 @@
 import React from 'react'
 import { useStaticQuery, graphql } from "gatsby"
-import { Nav, NavDropdown, Navbar, Button } from 'react-bootstrap'
+import { Nav, Navbar } from 'react-bootstrap'
 import AniLink from 'gatsby-plugin-transition-link/AniLink'
 
 // export const pageQuery = graphql`
