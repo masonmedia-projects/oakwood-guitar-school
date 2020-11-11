@@ -1,8 +1,6 @@
 import React, { Component } from "react"
 // import { graphql } from "gatsby"
-// import Layout from "../components/Layout";
 import { Container, Row, Col } from "react-bootstrap";
-// import Img from "gatsby-image"
 import AniLink from "gatsby-plugin-transition-link/AniLink";
 
 export class Footer extends Component {
@@ -15,12 +13,7 @@ export class Footer extends Component {
             <footer>
                 <Container fluid className="p-0 relative">
                     <Row className="bg-black text-light p-0">
-                        <Col xl={3} md={6} className="align-left-top px-5 pt-5 font-weight-bold">
-                            {/* <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-player-skip-forward" width="44" height="44" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#ffffff" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                <path d="M4 5v14l12 -7z" />
-                                <line x1="20" y1="5" x2="20" y2="19" />
-                            </svg> */}
+                        <Col xl={4} md={6} className="align-left-top px-5 pt-5 font-weight-bold">
                             <h3 className="font-weight-bold border-bottom border-secondary py-3 mb-3 w-100">Menu.</h3>
                             <ul className="list-unstyled">
                                 <AniLink href="/">
@@ -33,45 +26,28 @@ export class Footer extends Component {
                                     <li>What You Need</li>
                                 </AniLink>
                                 <AniLink href="/typical-lesson">
-                                    <li>Lesson at OGS</li>
+                                    <li>Lessons at OGS</li>
                                 </AniLink>
                             </ul>
                         </Col>
-                        <Col xl={3} md={6} className="align-left-top px-5 pt-5 font-weight-bold">
-                            <h3 className="font-weight-bold border-bottom border-secondary py-3 mb-3 w-100">Work.</h3>
+                        
+                        <Col xl={4} md={6} className="align-left-top px-5 pt-5 font-weight-bold">
+                            <h3 className="font-weight-bold border-bottom border-secondary py-3 mb-3 w-100">Connect.</h3>
                             <ul className="list-unstyled">
-                                <AniLink href="/">
-                                    <li>Warren Yen</li>
-                                </AniLink>
-                                <AniLink href="/">
-                                    <li>Jaxx Liberty</li>
-                                </AniLink>
-                                <AniLink href="/">
-                                    <li>Neil Whitford</li>
-                                </AniLink>
-                                <AniLink href="/">
-                                    <li>Big Horn Sheep</li>
-                                </AniLink>
+                                <a href="mailto:info@oakwoodguitarschool.com" target="_blank"><li>Email</li></a>
+                                <a href="https://www.neilwhitford.com" target="_blank"><li>Neil Whitford</li></a>
+                                <a href="https://www.facebook.com/neil.whitford.58" target="_blank"><li>Facebook</li></a>
+                                <a href="https://www.instagram.com/whitfordguitar/" target="_blank"><li>Instagram</li></a>
+                                {/* <a href="https://twitter.com/whitfordguitar" target="_blank"><li>Twitter</li></a> */}
                             </ul>
                         </Col>
                         <Col xl={3} md={6} className="align-left-top px-5 pt-5 font-weight-bold">
                             <h3 className="font-weight-bold border-bottom border-secondary py-3 mb-3 w-100">More.</h3>
-                            <ul className="list-unstyled">
-                                <a href="https://github.com/masonmedia" target="_blank"><li>Github</li></a>
-                                <a href="https://www.behance.net/andrewmasonmedia" target="_blank"><li>Behance</li></a>
-                                <a href="http://copy.andrewmasonmedia.com/" target="_blank"><li>Writing/Editing</li></a>
-                                <AniLink href="/">
-                                    <li>Resume</li>
-                                </AniLink>
-                            </ul>
-                        </Col>
-                        <Col xl={3} md={6} className="align-left-top px-5 pt-5 font-weight-bold">
-                            <h3 className="font-weight-bold border-bottom border-secondary py-3 mb-3 w-100">Connect.</h3>
                             <ul className="list-unstyled blockquote">
-                                <a href="https://www.AniLinkedin.com/in/andrewmasonmedia/" target="_blank"><li>AniLinkedin</li></a>
-                                <a href="https://www.facebook.com/andrewmasonmedia/" target="blank"><li>Facebook</li></a>
-                                <a href="https://twitter.com/C_AndrewMason" target="_blank"><li>Twitter</li></a>
-                                <a href="mailto:andrewmasonmedia@gmail.com"><li>Email</li></a>
+                                <a href="https://soundcloud.com/oakwoodguitarschool" target="_blank"><li>Soundcloud</li></a>
+                                <a href="https://www.linkedin.com/in/neil-whitford-627ab9a9/?originalSubdomain=ca" target="blank"><li>Linkedin</li></a>
+                                <a href="https://soundbetter.com/profiles/8883-neil-whitford" target="_blank"><li>SoundBetter</li></a>
+                                <a href="https://hearthis.at/neil-whitford/"><li>heartthis</li></a>
                             </ul>
                         </Col>
                         <Col sm={12} className="align-center font-weight-bold pt-4 pb-5">

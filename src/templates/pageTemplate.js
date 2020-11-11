@@ -3,6 +3,7 @@ import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import { Row, Col } from "react-bootstrap";
 import Img from "gatsby-image";
+import Footer from "../components/Footer";
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
@@ -49,7 +50,7 @@ export default function Template({
                 />
               </Col>
           </Row>
-        
+        <Footer />
     </Layout>
   )
 }
