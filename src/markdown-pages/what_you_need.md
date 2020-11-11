@@ -23,7 +23,7 @@ An acoustic guitar is recommended for new students, however electric guitar will
 ## **Guitar Rentals**
 ---
 
-If you aren't sure about purchasing a guitar as a new student, I recommend a rental at Long and Mcquade which is very affordable and offer a rent-to-own on their instruments.  They are located at Bloor and Ossington, here is an example of what you might say:
+If you aren't sure about purchasing a guitar as a new student, I recommend a rental at <a href="https://edu.long-mcquade.com/rentals/guitars/" target="_blank">**Long and Mcquade**</a> which is very affordable and offer a rent-to-own on their instruments.  They are located at <a href="https://edu.long-mcquade.com/location/Ontario/Toronto/" target="_blank">**Bloor and Ossington**</a>, here is an example of what you might say:
 
 "I am looking for a half or 3/4 size nylon string guitar to rent for my 9 year old son who is starting guitar lessons this year.  Do you have anything you recommend?".
 
@@ -45,9 +45,10 @@ Or alternately:
 ## **Other Tools**
 ---
 
-- A metronome is a key component to being a good musician, and you can now find metronomes and drum machines on the internet for free, - I recommend the following:
-- www.metronomeonline.com/ - a simple online metronome
-- www.onemotion.com/flash/drum-machine/ - an online flash drum machine that is really useful for keeping time in a more musical way than a metronome.
+**A metronome** is a key component to being a good musician, and you can now find metronomes and drum machines on the internet for free. I recommend the following:
+- <a href="http://www.metronomeonline.com" target="_blank">metronomeonline.com</a> - a simple online metronome.
+- <a href="https://www.onemotion.com/drum-machine/" target="_blank">onemotion.com/drum-machine</a> - an online flash drum machine that is really useful for keeping time in a more musical way than a metronome.
+- <a href="https://metronom.us/en/" target="_blank">metronom.us</a>
 
 ---
 ## **Oakwood Guitar School Store**
