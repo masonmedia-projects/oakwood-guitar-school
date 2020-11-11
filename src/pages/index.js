@@ -112,7 +112,7 @@ export default function Home({data}) {
               <line x1="11" y1="12" x2="20" y2="12" />
               <line x1="11" y1="18" x2="20" y2="18" />
             </svg>
-            <h5 class="py-3">All Ages & Levels</h5>
+            <h5 className="py-3">All Ages & Levels</h5>
             <p>We teach students of all ages, abilities, and experience levels. Whether beginner or advanced, we can help you achieve your goals.</p>
             <AniLink cover to="/why-ogs">
               <Button variant="outline-light" className="mt-4 shadow">Learn more</Button>
@@ -125,7 +125,7 @@ export default function Home({data}) {
               <path d="M4 5v14l12 -7z" />
               <line x1="20" y1="5" x2="20" y2="19" />
             </svg>
-            <h5 class="py-3">Perform and Record</h5>
+            <h5 className="py-3">Perform and Record</h5>
             <p>At the end of each semester we offer recordings and recitals as an opportunity for our students to show off their new skills to friends & family!</p>
             <AniLink cover to="/why-ogs">
               <Button variant="outline-light" className="mt-4 shadow">Learn more</Button>
@@ -142,7 +142,7 @@ export default function Home({data}) {
                 <line x1="6" y1="12" x2="9" y2="12" />
                 <line x1="6" y1="15" x2="8" y2="15" />
               </svg>
-            <h5 class="py-3">Certified Programs</h5>
+            <h5 className="py-3">Certified Programs</h5>
             <p>We teach certified programs from the Registry of Guitar Tutors and Conservatory Canada upon request in addition to essential skills and repertoire.</p>
             <AniLink cover to="/why-ogs">
               <Button variant="outline-light" className="mt-4 shadow">Learn more</Button>

@@ -47,9 +47,9 @@ export default function Menu() {
             to="/">OGS
             </AniLink>
             <Navbar.Toggle aria-controls="responsive-navbar-nav">
-              <span class="icon-bar top-bar"></span>
-	            <span class="icon-bar middle-bar"></span>
-	            <span class="icon-bar bottom-bar"></span>
+              <span className="icon-bar top-bar"></span>
+	            <span className="icon-bar middle-bar"></span>
+	            <span className="icon-bar bottom-bar"></span>
             </Navbar.Toggle>
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="ml-auto">

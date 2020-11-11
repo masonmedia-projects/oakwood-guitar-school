@@ -16,16 +16,16 @@ export class Footer extends Component {
                         <Col xl={4} md={6} className="align-left-top px-5 pt-5 font-weight-bold">
                             <h3 className="font-weight-bold border-bottom border-secondary py-3 mb-3 w-100">Menu.</h3>
                             <ul className="list-unstyled">
-                                <AniLink href="/">
+                                <AniLink to="/">
                                     <li>Home</li>
                                 </AniLink>
-                                <AniLink href="/why-ogs">
+                                <AniLink to="/why-ogs">
                                     <li>Why OGS?</li>
                                 </AniLink>
-                                <AniLink href="what-you-need">
+                                <AniLink to="what-you-need">
                                     <li>What You Need</li>
                                 </AniLink>
-                                <AniLink href="/typical-lesson">
+                                <AniLink to="/typical-lesson">
                                     <li>Lessons at OGS</li>
                                 </AniLink>
                             </ul>
