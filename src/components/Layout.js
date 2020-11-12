@@ -1,6 +1,7 @@
 import React from 'react'
 import Menu from './Menu'
 import { Container } from 'react-bootstrap'
+import { Fade } from "react-awesome-reveal";
 
 export default function Layout(props) {
     return (

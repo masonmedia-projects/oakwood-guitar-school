@@ -40,7 +40,6 @@ export default function Home({data}) {
           placeholderStyle={{ backgroundColor: `black` }}
           style={{position: 'absolute', zIndex: '0'}}
           fluid={data.imageOne.childImageSharp.fluid} alt="Oakwood Guitar School" />
-          <div className="absolute left top z-0 w-100 min-100"></div>
           <Col md={{span: 6, offset: 6}} className="min-100  align-left-bottom relative z-1 p-4">
             <div className="w-100 bg-black text-light shadow-lg rounded p-5">
             <Img 

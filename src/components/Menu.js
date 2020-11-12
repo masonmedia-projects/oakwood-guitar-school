@@ -36,14 +36,13 @@ export default function Menu() {
           }
         }
       }
-      
-      
   `)
       return (
         <Navbar collapseOnSelect expand="lg" bg="black" variant="dark" fixed="top" className="py-3 shadow">
             <AniLink 
             className="navbar-brand nav-link" 
             cover bg="#000" 
+            duration={1.5}
             to="/">OGS
             </AniLink>
             <Navbar.Toggle aria-controls="responsive-navbar-nav">
@@ -59,6 +58,7 @@ export default function Menu() {
                     <AniLink 
                     className="nav-link" 
                     cover bg="#000" 
+                    duration={1.5}
                     to={node.frontmatter.slug}>{node.frontmatter.title}</AniLink>
                 </div>
                 ))}
