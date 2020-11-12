@@ -66,5 +66,11 @@ logo: ./ogs_tele_icon_crop.png
 **Lesson Termination:** Lessons must be terminated with 30-days notice, any paid lessons will be honoured or they may be forfeited by the student.  No refunds will be made for unused lessons.  
 
 ---
+##### **Free Trial**
+---
+
+At Oakwood Guitar School your first lesson is a no-cost, risk free trial.  Please [**contact us**](mailto:info@oakwoodguitarschool.com "Oakwood Guitar School free trial lesson") to book your first lesson!
+
+---
 ##### **Please [contact us](mailto:info@oakwoodguitarschool.com "Oakwood Guitar School") for more information or if you have any questions!**
 ---

@@ -20,12 +20,12 @@ We teach electric guitar, acoustic guitar, classical guitar, bass guitar and upr
 ---
 ## **Lesson Length**
 ---
-Lessons are offered at $40 for one hour, $31 for 45-minutes, and $22 for 30-minutes. Group and ensemble lessons can also be arranged upon request.  
+Lessons are **Oakwood Guitar School** are offered at $60 for one hour, and $31 for 30-minutes. Group and ensemble lessons can also be arranged upon request.  Please see our [**Rates & Policies**](/rates-policies "Oakwood Guitar School Rates and Policies") page for details and more information.  
  
 ---  
 ## **Ages**  
 ---
-Children and adults of all levels and abilities are welcome! Students younger than 8 years might not be ready for learning guitar yet. It is best for us to meet your child in order to make a decision. Regardless of age, your first lesson is a no-cost, risk free trial. 
+Children and adults of all levels and abilities are welcome! Students younger than 8 years might not be ready for learning guitar yet. It is best for us to meet your child in order to make a decision. **Regardless of age, your first lesson is a no-cost, risk free trial.**  
 
 ---  
 ## **Live Music**

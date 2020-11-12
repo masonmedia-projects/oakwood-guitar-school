@@ -41,12 +41,20 @@ export default function Home({data}) {
           style={{position: 'absolute', zIndex: '0'}}
           fluid={data.imageOne.childImageSharp.fluid} alt="Oakwood Guitar School" />
           <Col md={{span: 6, offset: 6}} className="min-100  align-left-bottom relative z-1 p-4">
-            <div className="w-100 bg-black text-light shadow-lg rounded p-5">
+            <div className="w-100 bg-black text-light shadow-lg rounded p-5"
+            data-aos="fade-down"
+            data-aos-duration="1500"
+            data-aos-easing="ease-in-out-back">
             <Img 
             className="w-50 my-3" 
-            fluid={data.imageIcon.childImageSharp.fluid} alt="Oakwood Guitar School logo" />
-              <h1 className="site-title">
-                Oakwood
+            fluid={data.imageIcon.childImageSharp.fluid} alt="Oakwood Guitar School logo"
+            />
+              <h1 
+              className="site-title"
+              data-aos="fade"
+              data-aos-duration="2000"
+              data-aos-easing="ease-in-out-back">
+                <span>Oakwood</span>
                 <span className="d-table">Guitar</span>
                 <span className="d-table">School</span>
               </h1>
