@@ -2,16 +2,16 @@ import React, { useEffect } from 'react';
 import Menu from './Menu';
 import { Container } from 'react-bootstrap';
 import Footer from './Footer';
-import AOS from 'aos';
+// import AOS from 'aos';
 
 export default function Layout(props) {
-    useEffect(() => {
-        AOS.init();
-        AOS.refresh();
-      });
+    // useEffect(() => {
+    //     AOS.init();
+    //     AOS.refresh();
+    //   });
     return (
         <>
-            <Menu data-aos="fade-up" />
+            <Menu />
             <Container fluid 
             className={`${props.containerClass} p-0`}
             style={props.containerStyle}>
