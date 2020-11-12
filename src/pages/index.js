@@ -4,7 +4,7 @@ import Layout from "../components/Layout";
 import { Row, Col, Button } from "react-bootstrap";
 import Img from "gatsby-image"
 import AniLink from "gatsby-plugin-transition-link/AniLink";
-import Footer from "../components/Footer";
+// import Footer from "../components/Footer";
 
 export default function Home({data}) {
 
@@ -246,8 +246,7 @@ export default function Home({data}) {
             </Col>
             
         </Row>
-        <Footer />
-
+        {/* <Footer /> */}
       </Layout>
     </div>
   )
