@@ -50,10 +50,7 @@ export default function Home({data}) {
             fluid={data.imageIcon.childImageSharp.fluid} alt="Oakwood Guitar School logo"
             />
               <h1 
-              className="site-title"
-              data-aos="fade"
-              data-aos-duration="2000"
-              data-aos-easing="ease-in-out-back">
+              className="site-title">
                 <span>Oakwood</span>
                 <span className="d-table">Guitar</span>
                 <span className="d-table">School</span>
