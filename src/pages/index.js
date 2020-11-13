@@ -244,12 +244,11 @@ export default function Home({data}) {
             <h1 className="section-title mb-3">
                 Get started today!
               </h1>
-              <h2 className="h4 text-muted font-weight-bold">Contact us to book a lesson, for more information, or any questions you may have.</h2>
+              <h2 className="h4 text-muted font-weight-bold">Contact us to book a free trial lesson, for more information or any questions you may have.</h2>
               <a href="mailto:info@oakwoodguitarschool.com">
                 <Button variant="dark" className="my-3">Get in touch</Button>
               </a>
             </Col>
-            
         </Row>
         {/* <Footer /> */}
       </Layout>
