@@ -20,7 +20,7 @@ We teach electric guitar, acoustic guitar, classical guitar, bass guitar and upr
 ---
 ## **Lesson Length**
 ---
-Lessons are **Oakwood Guitar School** are offered at $60 for one hour, and $31 for 30-minutes. Group and ensemble lessons can also be arranged upon request.  Please see our [**Rates & Policies**](/rates-policies "Oakwood Guitar School Rates and Policies") page for details and more information.  
+**Oakwood Guitar School** offers 30-minute and 60-minute lessons.  Group and ensemble lessons can also be arranged upon request.  Please see our [**Rates & Policies**](/rates-policies "Oakwood Guitar School Rates and Policies") page for details and more information.  
  
 ---  
 ## **Ages**  
