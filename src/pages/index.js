@@ -192,7 +192,7 @@ export default function Home({data}) {
               </h1>
               <h2 className="h4 font-weight-bold">Here's how a typical lesson works at Oakwood Guitar School</h2>
               <p className="my-3">Lessons at OGS are personalized and tailored to the needs of each individual student. However they do follow a relatively consistent routine which includes: warm ups and stretches, technical exercises, ear training, rhythm practice, repertoire development, and other essential skills.</p>
-              <AniLink cover to="/why-ogs">
+              <AniLink cover to="/typical-lesson">
                 <Button variant="light" className="my-3">Learn more</Button>
               </AniLink>
             </div>
