@@ -69,7 +69,7 @@ logo: ./ogs_tele_icon_crop.png
 ##### **Free Trial**
 ---
 
-At Oakwood Guitar School your first lesson is a no-cost, risk free trial.  Please [**contact us**](mailto:info@oakwoodguitarschool.com "Oakwood Guitar School free trial lesson") to book your first lesson!
+At Oakwood Guitar School your first lesson is a no-cost, risk free trial.  Please [**get in touch**](mailto:info@oakwoodguitarschool.com "Oakwood Guitar School free trial lesson") for more details and to book your first lesson!
 
 ---
 ##### **Please [contact us](mailto:info@oakwoodguitarschool.com "Oakwood Guitar School") for more information or if you have any questions!**
