@@ -18,7 +18,7 @@ export default class MyForm extends Component {
     return (
 
         <form 
-        novalidate
+        // novalidate
         className="w-100 needs-validation"
         onSubmit={this.submitForm}
         action="https://formspree.io/f/mleowjbk"
@@ -35,7 +35,7 @@ export default class MyForm extends Component {
                     </svg>
                 </div>
                 </div>
-                <input type="text" name="name" className="form-control" id="inlineFormInputGroupUsername2" placeholder="Name"
+                <input type="text" name="name" className="form-control" id="formName" placeholder="Name"
                 required />
             </div>
             {/* email */}
@@ -44,11 +44,11 @@ export default class MyForm extends Component {
                 <div className="input-group mb-2 mr-sm-2">
                 <div className="input-group-prepend">
                 <div className="input-group-text">
-                <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-mail" width="20" height="20" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#2c3e50" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                    <rect x="3" y="5" width="18" height="14" rx="2" />
-                    <polyline points="3 7 12 13 21 7" />
-                </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-mail" width="20" height="20" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#2c3e50" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                      <rect x="3" y="5" width="18" height="14" rx="2" />
+                      <polyline points="3 7 12 13 21 7" />
+                  </svg>
                 </div>
                 </div>
                 <input type="email" name="_replyto" className="form-control" id="formEmail" placeholder="Email address" required />
@@ -62,11 +62,11 @@ export default class MyForm extends Component {
             <div className="form-group">
                 <textarea className="form-control" id="exampleFormControlTextarea1" type="text" name="message" placeholder="I'd love to book my first lesson!" rows="3" required></textarea>
                 <div className="d-flex py-3">
-                    {status === "SUCCESS" ? <button className="btn btn-dark mt-2" type="submit" value="Send">Thanks!</button> : <button className="btn btn-dark mt-2 mr-2" type="submit" value="Send">Submit</button>}
+                    {status === "SUCCESS" ? <button className="btn btn-dark mt-2 py-2 px-3">Thanks!</button> : <button id="sendForm" className="btn btn-dark mt-2 mr-2 py-2 px-3" type="submit" value="Send">Submit</button>}
                     {status === "ERROR" && 
-                    <div class="d-inline-block alert alert-danger mb-0 mt-2 py-2 px-3 fade show" role="alert">
-                    <strong>Error!</strong> Please try again!
-                </div>}
+                    <div id="alert" className="d-inline-block alert alert-danger mb-0 mt-2 py-2 px-3 fade show" role="alert">
+                        <strong>Error!</strong> Please try again!
+                    </div>}
                 </div>
             </div>
         </form>
@@ -88,6 +88,9 @@ export default class MyForm extends Component {
         this.setState({ status: "SUCCESS" });
       } else {
         this.setState({ status: "ERROR" });
+        // document.querySelector('#sendForm').addEventListener('click', function() {
+        //     document.querySelector('#alert').classList.add('fade');
+        // });
       }
     };
     xhr.send(data);

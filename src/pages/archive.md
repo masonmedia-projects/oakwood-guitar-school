@@ -38,3 +38,8 @@
   <input type="text" name="_gotcha" style={{display: 'none'}} />
   <input className="btn btn-dark" type="submit" value="Send" required/>
 </form>
+
+
+  // document.querySelector('#submit').addEventListener('click', function() {
+        //     document.querySelector('#alert').classList.add('fade');
+        // });
