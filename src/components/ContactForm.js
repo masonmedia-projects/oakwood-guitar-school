@@ -24,7 +24,7 @@ export default class MyForm extends Component {
         action="https://formspree.io/f/mleowjbk"
         method="POST">
             {/* name */}
-            <label className="sr-only" htmlFor="inlineFormInputGroupUsername2">Name</label>
+          <label className="sr-only" htmlFor="inlineFormInputGroupUsername2">Name</label>
             <div className="input-group mb-2 mr-sm-2">
                 <div className="input-group-prepend">
                 <div className="input-group-text">

@@ -4,11 +4,13 @@ import { Container, Row, Col } from "react-bootstrap";
 import AniLink from "gatsby-plugin-transition-link/AniLink";
 
 export class Footer extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {date: new Date()};
-      }
-    render() {         
+
+    render() {   
+        
+        // get year for copyright
+        const d = new Date();
+        const y = d.getFullYear();
+        
         return (
             <footer>
                 <Container fluid className="p-0 relative">
@@ -47,12 +49,12 @@ export class Footer extends Component {
                                 <a href="https://soundcloud.com/oakwoodguitarschool" target="_blank" rel="noreferrer"><li>Soundcloud</li></a>
                                 <a href="https://www.linkedin.com/in/neil-whitford-627ab9a9/?originalSubdomain=ca" target="blank" rel="noreferrer"><li>Linkedin</li></a>
                                 <a href="https://soundbetter.com/profiles/8883-neil-whitford" target="_blank" rel="noreferrer"><li>SoundBetter</li></a>
-                                <a href="https://hearthis.at/neil-whitford/" target="_blank" rel="noreferrer"><li>heartthis</li></a>
+                                <a href="https://hearthis.at/neil-whitford/" target="_blank" rel="noreferrer"><li>hearthis</li></a>
                             </ul>
                         </Col>
                         <Col sm={12} className="align-center font-weight-bold pt-4 pb-5">
                         <p id="copyright" className="mb-0">
-                        &copy; Oakwood Guitar School | {this.state.date.getFullYear()}
+                        &copy; Oakwood Guitar School | {y}
                         </p>
                         </Col>
                     </Row>
