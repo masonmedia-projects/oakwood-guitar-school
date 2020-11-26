@@ -38,3 +38,7 @@ ul li::marker {
       @extend .list-unstyled;
       font-size: 1.25rem;
   }
+
+  .form-control::-webkit-input-placeholder {
+    color: lightgrey;
+  }

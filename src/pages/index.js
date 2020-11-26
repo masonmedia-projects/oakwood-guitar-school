@@ -4,7 +4,7 @@ import Layout from "../components/Layout";
 import { Row, Col, Button } from "react-bootstrap";
 import Img from "gatsby-image"
 import AniLink from "gatsby-plugin-transition-link/AniLink";
-// import Footer from "../components/Footer";
+import MyForm from "../components/ContactForm";
 
 export default function Home({data}) {
 
@@ -241,16 +241,16 @@ export default function Home({data}) {
             fluid={data.imageEight.childImageSharp.fluid} alt="Oakwood Guitar School" />
           </Col>
           <Col lg={6} className="align-left-center bg-texture p-5">
-            <h1 className="section-title mb-3">
+            <h1 className="section-title mb-5">
                 Get started today!
               </h1>
-              <h2 className="h4 text-muted font-weight-bold">Contact us to book a free trial lesson, for more information or any questions you may have.</h2>
-              <a href="mailto:info@oakwoodguitarschool.com">
+              <h2 className="h4 text-muted font-weight-bold border-bottom pb-3 mb-3">Contact us to book a free trial lesson, for more information or with any questions you may have.</h2>
+              {/* <a href="mailto:info@oakwoodguitarschool.com">
                 <Button variant="dark" className="my-3">Get in touch</Button>
-              </a>
+              </a> */}
+              <MyForm />
             </Col>
         </Row>
-        {/* <Footer /> */}
       </Layout>
     </div>
   )
