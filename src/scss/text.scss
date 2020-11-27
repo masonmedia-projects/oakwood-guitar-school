@@ -92,8 +92,9 @@ code {
     padding: 30px;
   mix-blend-mode: multiply
   }
-  
+
   /* background image animation */
+
   @-webkit-keyframes moving-background {
   0% {background-position: left center;}
   100% {background-position: right center;}
