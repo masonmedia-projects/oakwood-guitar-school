@@ -25,7 +25,7 @@ At least half of each lesson is dedicated to playing music, because that's what 
 ---
 ## **Variation, flexibility, and questions**
 ---
-The outline above reflects a typical lesson, but with most things in life lessons at OGS are fluid and flexible; the more advanced the student becomes, the more variety in the shape of lessons.  And always remember to ask questions if you are not sure of the lesson notes or what the student should be doing at home!  
+The outline above reflects a typical lesson, but as with most things in life, lessons at OGS are fluid and flexible; the more advanced the student becomes, the more variety in the shape of lessons.  And always remember to ask questions if you are not sure of the lesson notes or what the student should be doing at home!  
 
 ---
 ##### **Please [contact us](mailto:info@oakwoodguitarschool.com "Oakwood Guitar School") for more information or if you have any questions!**
