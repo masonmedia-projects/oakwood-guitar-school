@@ -9,8 +9,7 @@ export default function Template({
 }) {
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
-  let post = data.markdownRemark
-  let featuredImgFluid = post.frontmatter.featuredImage.childImageSharp.fluid
+  // let post = data.markdownRemark
   return (
       <Layout>
           <Row className="min-100 p-0 m-0">

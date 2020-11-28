@@ -62,7 +62,13 @@ export default function Menu() {
                     to={node.frontmatter.slug}>{node.frontmatter.title}</AniLink>
                 </div>
                 ))}
-                <Nav.Link href="mailto:info@oakwoodguitarschool.com">Contact</Nav.Link>
+                <AniLink 
+                  className="nav-link" 
+                  cover bg="#000" 
+                  duration={1.5}
+                  to="/contact">Contact</AniLink>
+
+                {/* <Nav.Link href="mailto:info@oakwoodguitarschool.com">Contact</Nav.Link> */}
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

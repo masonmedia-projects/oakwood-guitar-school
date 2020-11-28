@@ -21,6 +21,7 @@
     "gatsby-plugin-catch-links": "^2.4.0",
     "gatsby-plugin-sass": "^2.3.22",
     "gatsby-plugin-sharp": "^2.7.1",
+    "gatsby-plugin-smoothscroll": "^1.2.0",
     "gatsby-plugin-transition-link": "^1.20.5",
     "gatsby-remark-images": "^3.4.1",
     "gatsby-source-filesystem": "^2.3.37",

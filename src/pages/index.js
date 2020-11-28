@@ -5,6 +5,7 @@ import { Row, Col, Button } from "react-bootstrap";
 import Img from "gatsby-image"
 import AniLink from "gatsby-plugin-transition-link/AniLink";
 import MyForm from "../components/ContactForm";
+import scrollTo from 'gatsby-plugin-smoothscroll';
 
 export default function Home({data}) {
 
@@ -55,12 +56,16 @@ export default function Home({data}) {
                 <span className="d-table">Guitar</span>
                 <span className="d-table">School</span>
               </h1>
+              <Button variant="light" className="mt-4 mr-2 shadow" onClick={() => scrollTo('#what-we-do')}>Learn more</Button>
+              <a cover href="mailto:oakwoodguitarschool.com">
+                <Button variant="outline-light" className="mt-4 shadow">Book a trial lesson!</Button>
+              </a>
             </div>
           </Col>
         </Row>
 
         {/* what we do */}
-        <Row className="min-100 p-0 m-0 relative z-1">
+        <Row id="what-we-do" className="min-100 p-0 m-0 relative z-1">
           <Col sm={12} className="align-left-center">
           <Img 
           className="w-100 h-100 left" 
@@ -242,14 +247,11 @@ export default function Home({data}) {
           </Col>
           <Col lg={6} className="align-left-center bg-texture p-5">
             <h1 className="section-title mb-5">
-                Get started today!
-              </h1>
-              <h2 className="h4 text-muted font-weight-bold border-bottom pb-3 mb-3">Contact us to book a free trial lesson, for more information or with any questions you may have.</h2>
-              {/* <a href="mailto:info@oakwoodguitarschool.com">
-                <Button variant="dark" className="my-3">Get in touch</Button>
-              </a> */}
-              <MyForm />
-            </Col>
+                Book a free trial!
+            </h1>
+            <h2 className="h4 text-muted font-weight-bold border-bottom pb-3 mb-3">Contact us to book a free trial lesson, for more information or with any questions you may have.</h2>
+            <MyForm />
+          </Col>
         </Row>
       </Layout>
     </div>
@@ -283,7 +285,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    imageTwo: file(relativePath: { eq: "ogs_2.png" }) {
+    imageTwo: file(relativePath: { eq: "ogs_tele_picks.png" }) {
       ...fluidImage
     }
     imageThree: file(relativePath: { eq: "ogs_guitar_neck.png" }) {
@@ -293,7 +295,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    imageFour: file(relativePath: { eq: "ogs_blue.png" }) {
+    imageFour: file(relativePath: { eq: "ogs_2_guitars.png" }) {
       ...fluidImage
     }
     imageFive: file(relativePath: { eq: "ogs_4.png" }) {

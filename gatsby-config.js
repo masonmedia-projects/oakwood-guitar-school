@@ -13,6 +13,7 @@ module.exports = {
     `gatsby-plugin-sass`,
     `gatsby-plugin-transition-link`,
     `gatsby-plugin-catch-links`,
+    `gatsby-plugin-smoothscroll`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {

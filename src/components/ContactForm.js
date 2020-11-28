@@ -60,7 +60,7 @@ export default class MyForm extends Component {
             <input type="text" name="_gotcha" style={{display: 'none'}} />
             {/* message */}
             <div className="form-group">
-                <textarea className="form-control" id="exampleFormControlTextarea1" type="text" name="message" placeholder="I'd love to book my first lesson!" rows="3" required></textarea>
+                <textarea className="form-control" id="exampleFormControlTextarea1" type="text" name="message" placeholder="Message" rows="3" required></textarea>
                 <div className="d-flex py-3">
                     {status === "SUCCESS" ? <button className="btn btn-dark mt-2 py-2 px-3">Thanks!</button> : <button id="sendForm" className="btn btn-dark mt-2 mr-2 py-2 px-3" type="submit" value="Send">Submit</button>}
                     {status === "ERROR" && 
