@@ -1,6 +1,6 @@
 import React from 'react'
 import { useStaticQuery, graphql } from "gatsby"
-import { Nav, Navbar } from 'react-bootstrap'
+import { Nav, Navbar, Button } from 'react-bootstrap'
 import AniLink from 'gatsby-plugin-transition-link/AniLink'
 
 // export const pageQuery = graphql`
@@ -45,6 +45,9 @@ export default function Menu() {
             duration={1.5}
             to="/">OGS
             </AniLink>
+            <a href="mailto:info@oakwoodguitarschool.com" className="d-flex d-lg-none ml-auto my-0">
+              <Button variant="ogs">Book a Trial!</Button>
+            </a>
             <Navbar.Toggle aria-controls="responsive-navbar-nav">
               <span className="icon-bar top-bar"></span>
 	            <span className="icon-bar middle-bar"></span>
@@ -53,16 +56,16 @@ export default function Menu() {
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="ml-auto">
 
-                {data.allMarkdownRemark.edges.map(({ node }) => (
-                <div key={node.id}>
-                    <AniLink 
-                    className="nav-link" 
-                    cover bg="#000" 
-                    duration={1.5}
-                    to={node.frontmatter.slug}>{node.frontmatter.title}</AniLink>
-                </div>
-                ))}
-                <AniLink 
+                  {data.allMarkdownRemark.edges.map(({ node }) => (
+                  <div key={node.id}>
+                      <AniLink 
+                      className="nav-link" 
+                      cover bg="#000" 
+                      duration={1.5}
+                      to={node.frontmatter.slug}>{node.frontmatter.title}</AniLink>
+                  </div>
+                  ))}
+                  <AniLink 
                   className="nav-link" 
                   cover bg="#000" 
                   duration={1.5}

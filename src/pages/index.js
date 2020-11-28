@@ -41,7 +41,7 @@ export default function Home({data}) {
           placeholderStyle={{ backgroundColor: `black` }}
           style={{position: 'absolute', zIndex: '0'}}
           fluid={data.imageOne.childImageSharp.fluid} alt="Oakwood Guitar School" />
-          <Col md={{span: 6, offset: 6}} className="min-100  align-left-bottom relative z-1 p-4">
+          <Col md={{span: 7, offset: 5}} className="min-100  align-left-bottom relative z-1 p-4">
             <div className="w-100 bg-black text-light shadow-lg rounded p-5"
             data-aos="fade-down"
             data-aos-duration="1500"
@@ -56,10 +56,13 @@ export default function Home({data}) {
                 <span className="d-table">Guitar</span>
                 <span className="d-table">School</span>
               </h1>
-              <Button variant="light" className="mt-4 mr-2 shadow" onClick={() => scrollTo('#what-we-do')}>Learn more</Button>
-              <a cover href="mailto:oakwoodguitarschool.com">
-                <Button variant="outline-light" className="mt-4 shadow">Book a trial lesson!</Button>
-              </a>
+              <div className="d-inline-block mt-4">
+                <Button variant="light" className="mb-2 mr-2 shadow" onClick={() => scrollTo('#what-we-do')}>Learn more</Button>
+                <a cover href="mailto:oakwoodguitarschool.com">
+                  <Button variant="outline-light" className="shadow mb-2">Book a trial lesson!</Button>
+                </a>
+              </div>
+              
             </div>
           </Col>
         </Row>
