@@ -45,7 +45,8 @@ export default function Menu() {
             duration={1.5}
             to="/">OGS
             </AniLink>
-            <a href="mailto:info@oakwoodguitarschool.com" className="d-flex d-lg-none ml-auto my-0">
+            {/* mobile CTA */}
+            <a href="mailto:info@oakwoodguitarschool.com?subject=I'd%to%20book%20a%20lesson!" className="d-flex d-lg-none ml-auto my-0">
               <Button variant="ogs">Book a Trial!</Button>
             </a>
             <Navbar.Toggle aria-controls="responsive-navbar-nav">
@@ -55,7 +56,6 @@ export default function Menu() {
             </Navbar.Toggle>
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="ml-auto">
-
                   {data.allMarkdownRemark.edges.map(({ node }) => (
                   <div key={node.id}>
                       <AniLink 

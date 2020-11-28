@@ -58,11 +58,10 @@ export default function Home({data}) {
               </h1>
               <div className="d-inline-block mt-4">
                 <Button variant="light" className="mb-2 mr-2 shadow" onClick={() => scrollTo('#what-we-do')}>Learn more</Button>
-                <a cover href="mailto:oakwoodguitarschool.com">
+                <a cover href="mailto:oakwoodguitarschool.com?subject=I'm%interested%20in%20guitar%20lessons!">
                   <Button variant="outline-light" className="shadow mb-2">Book a trial lesson!</Button>
                 </a>
               </div>
-              
             </div>
           </Col>
         </Row>
