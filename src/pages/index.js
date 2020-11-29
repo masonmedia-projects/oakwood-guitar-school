@@ -10,31 +10,11 @@ import scrollTo from 'gatsby-plugin-smoothscroll';
 
 export default function Home({data}) {
   const text = Constants.text;
+
   return (
     <div>
       <Layout>
-        {/* banner light card */}
-        {/* <Row className="min-100 p-0 m-0">
-          <Img 
-          className="img-full left" 
-          durationFadeIn={1500}
-          style={{position: 'absolute', zIndex: '0'}}
-          fluid={data.imageOne.childImageSharp.fluid} alt="Oakwood Guitar School" />
-          <Col md={{span: 6, offset: 6}} className="min-100  align-left-bottom p-5">
-            <div className="w-100 bg-white shadow-lg rounded p-5">
-            <Img 
-            className="w-50 my-3" 
-            fluid={data.imageIcon.childImageSharp.fluid} alt="Oakwood Guitar School logo" />
-              <h1 className="site-title">
-                Oakwood
-                <span className="d-table">Guitar</span>
-                <span className="d-table">School</span>
-              </h1>
-            </div>
-          </Col>
-        </Row> */}
-        
-        {/* banner guitars */}
+        {/* banner */}
         <Row className="min-100 p-0 m-0">
           <Img 
           className="img-full left" 
@@ -48,7 +28,8 @@ export default function Home({data}) {
             data-aos-duration="1500"
             data-aos-easing="ease-in-out-back">
             <Img 
-            className="w-50 my-3" 
+            className="my-3" 
+            style={{width: '200px'}}
             fluid={data.imageIcon.childImageSharp.fluid} alt="Oakwood Guitar School logo"
             />
               <h1 
@@ -59,8 +40,8 @@ export default function Home({data}) {
               </h1>
               <div className="d-inline-block mt-4">
                 <Button variant="light" className="mb-2 mr-2 shadow" onClick={() => scrollTo('#what-we-do')}>Learn more</Button>
-                <a cover href="mailto:oakwoodguitarschool.com?subject=I'm%interested%20in%20guitar%20lessons!">
-                  <Button variant="outline-light" className="shadow mb-2">Book a trial lesson!</Button>
+                <a href="mailto:oakwoodguitarschool.com?subject=I'm%interested%20in%20guitar%20lessons!">
+                  <Button variant="outline-light" className="shadow mb-2">Book a trial</Button>
                 </a>
               </div>
             </div>
@@ -233,9 +214,12 @@ export default function Home({data}) {
                   <a href="https://www.google.com/maps/place/113+Alberta+Ave,+Toronto,+ON+M6H+2S1/@43.6785295,-79.435167,17z/data=!3m1!4b1!4m5!3m4!1s0x882b34796c431333:0x7e33b5abdcc0a799!8m2!3d43.6785295!4d-79.4329783">113 Alberta Avenue, Toronto, Ontario</a></li>
                 </ul>
                 <p>Oakwood Guitar School is located in downtown Toronto's Wychwood area, and operates Monday-Friday between 3pm-10pm. In cases, we offer scheduling flexibility if students require aternate lesson times or lesson makeup options. Please see our <AniLink cover to="/rates-policies" className="font-weight-bold">rates & policies</AniLink> page for more details, or inquire for more information.</p>
-                <a href="mailto:info@oakwoodguitarschool.com">
-                  <Button className="my-3" variant="dark">Contact us</Button>
-                </a>
+                <div className="d-inline-block mt-4">
+                  <AniLink cover to="/contact">
+                    <Button variant="dark" className="mb-2 mr-2 shadow">Contact us</Button>
+                  </AniLink>
+                    <Button variant="ogs" className="shadow mb-2" onClick={() => scrollTo('#book-a-trial')}>Book a trial</Button>
+                </div>
             </Col>
             <Col lg={6} className="p-0 m-0 min-50">
               <Img 
@@ -247,7 +231,7 @@ export default function Home({data}) {
         </Row>
 
         {/* contact */}
-        <Row className="min-100 bg-black p-4 m-0 relative z-1">
+        <Row id="book-a-trial" className="min-100 bg-black p-4 m-0 relative z-1">
           <Col lg={6} className="p-0 m-0 min-50">
             <Img 
             className="w-100 h-100" 

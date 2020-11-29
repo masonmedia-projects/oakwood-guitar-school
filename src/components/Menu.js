@@ -70,8 +70,10 @@ export default function Menu() {
                   cover bg="#000" 
                   duration={1.5}
                   to="/contact">Contact</AniLink>
-
-                {/* <Nav.Link href="mailto:info@oakwoodguitarschool.com">Contact</Nav.Link> */}
+                  {/* cta */}
+                  <a href="mailto:info@oakwoodguitarschool.com?subject=I'd20%like%20to%20book%20a%20lesson!" className="d-none d-lg-flex ml-2 my-0">
+                    <Button variant="ogs">Book a Trial!</Button>
+                  </a>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

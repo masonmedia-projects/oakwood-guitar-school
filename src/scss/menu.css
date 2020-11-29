@@ -70,7 +70,7 @@ button:focus {
   transform: rotate(0);
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   .nav-link {
     border-bottom: 1px solid grey;
     padding: 16px 0;

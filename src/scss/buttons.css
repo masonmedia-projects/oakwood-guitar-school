@@ -1,4 +1,6 @@
-.btn-ogs {
+.btn-ogs,
+.btn-ogs:focus,
+.btn-ogs:visited {
   background-color: #14CFA0 !important;
   color: #fff;
 }
