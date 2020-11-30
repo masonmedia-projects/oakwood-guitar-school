@@ -46,7 +46,7 @@ export default function Menu() {
             to="/">OGS
             </AniLink>
             {/* mobile CTA */}
-            <AniLink to="/contact" className="d-flex d-lg-none ml-auto my-0">
+            <AniLink cover to="/contact" className="d-flex d-lg-none ml-auto my-0">
               <Button variant="ogs">Book a Trial!</Button>
             </AniLink>
             <Navbar.Toggle aria-controls="responsive-navbar-nav">
