@@ -43,7 +43,7 @@ export default function Template({
                 fluid={frontmatter.logo.childImageSharp.fluid} />
                 <h6 className="text-muted font-weight-light text-uppercase mb-3">Oakwood Guitar School</h6>
                 {/* body */}
-                <div className=""
+                <div
                 dangerouslySetInnerHTML={{ __html: html }}
                 />
               </Col>

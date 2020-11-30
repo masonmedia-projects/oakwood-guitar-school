@@ -7,6 +7,7 @@ import Img from "gatsby-image";
 import AniLink from "gatsby-plugin-transition-link/AniLink";
 import MyForm from "../components/ContactForm";
 import scrollTo from 'gatsby-plugin-smoothscroll';
+import Fade from 'react-reveal/Fade'
 
 export default function Home({data}) {
   const text = Constants.text;
@@ -23,28 +24,25 @@ export default function Home({data}) {
           style={{position: 'absolute', zIndex: '0'}}
           fluid={data.imageOne.childImageSharp.fluid} alt="Oakwood Guitar School" />
           <Col md={{span: 7, offset: 5}} className="min-100  align-left-bottom relative z-1 p-4">
-            <div className="w-100 bg-black text-light shadow-lg rounded p-5"
-            data-aos="fade-down"
-            data-aos-duration="1500"
-            data-aos-easing="ease-in-out-back">
-            <Img 
-            className="my-3" 
-            style={{width: '200px'}}
-            fluid={data.imageIcon.childImageSharp.fluid} alt="Oakwood Guitar School logo"
-            />
-              <h1 
-              className="site-title">
-                <span>Oakwood</span>
-                <span className="d-table">Guitar</span>
-                <span className="d-table">School</span>
-              </h1>
-              <div className="d-inline-block mt-4">
-                <Button variant="light" className="mb-2 mr-2 shadow" onClick={() => scrollTo('#what-we-do')}>Learn more</Button>
-                <AniLink cover to="/contact">
-                  <Button variant="outline-light" className="shadow mb-2">Book a trial</Button>
-                </AniLink>
+              <div className="w-100 bg-black text-light shadow-lg rounded p-5">
+              <Img 
+              className="my-3" 
+              style={{width: '200px'}}
+              fluid={data.imageIcon.childImageSharp.fluid} alt="Oakwood Guitar School logo"
+              />
+                <h1 
+                className="site-title">
+                  <span>Oakwood</span>
+                  <span className="d-table">Guitar</span>
+                  <span className="d-table">School</span>
+                </h1>
+                <div className="d-inline-block mt-4">
+                  <Button variant="light" className="mb-2 mr-2 shadow" onClick={() => scrollTo('#what-we-do')}>Learn more</Button>
+                  <AniLink cover to="/contact">
+                    <Button variant="outline-light" className="shadow mb-2">Book a trial</Button>
+                  </AniLink>
+                </div>
               </div>
-            </div>
           </Col>
         </Row>
 
@@ -59,6 +57,7 @@ export default function Home({data}) {
           {/* embed row + col */}
             <Row>
               <Col lg={6} className="align-left-center bg-white rounded shadow-lg p-5 m-4">
+              <Fade down>
                 <h1 className="section-title mb-5">
                   {text.section_1.title}
                 </h1>
@@ -70,21 +69,26 @@ export default function Home({data}) {
                 <AniLink cover to="/why-ogs">
                   <Button variant="dark" className="mt-4 shadow">Learn more</Button>
                 </AniLink>
+                </Fade>
               </Col>
             </Row>
           </Col>
         </Row>
 
         {/* why oGS? */}
+        <Fade>
         <Row className="min-100 p-0 m-0 text-light bg-black relative">
           <Col sm={12} className="align-left-top p-5">
+            <Fade down>
             <h1 className="section-title pt-5 pb-3">
               {text.section_2.title}
             </h1>
             <h2 className="h5 font-weight-bold">
               {text.section_2.subtitle}
             </h2>
+            </Fade>
           </Col>
+
           <Col lg={3} md={6} className="align-left-top p-5">
             <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-users" width="44" height="44" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#14CFA0" fill="none" strokeLinecap="round" strokeLinejoin="round">
               <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -149,6 +153,7 @@ export default function Home({data}) {
             </AniLink>
           </Col>
         </Row>
+        </Fade>
 
         {/* what you need */}
         <Row className="min-100 p-0 m-0">
@@ -161,6 +166,7 @@ export default function Home({data}) {
           {/* embed row + col */}
             <Row>
               <Col lg={6} className="align-left-center bg-white shadow-lg rounded p-5 m-4">
+              <Fade down>
                 <h1 className="section-title mb-5">
                   {text.section_3.title}
                 </h1>
@@ -169,6 +175,7 @@ export default function Home({data}) {
                 <AniLink cover to="/what-you-need">
                   <Button variant="dark" className="my-3">Learn more</Button>
                 </AniLink>
+                </Fade>
               </Col>
             </Row>
           </Col>
@@ -183,6 +190,7 @@ export default function Home({data}) {
           fluid={data.imageFive.childImageSharp.fluid} alt="Oakwood Guitar School" />
           <Col lg={{span: 8, offset: 4}} className="align-left-center p-4 min-50">
             <div className="bg-ogs-green text-light shadow-lg rounded p-5">
+            <Fade down>
               <h1 className="section-title mb-5">
                 {text.section_4.title}
               </h1>
@@ -191,6 +199,7 @@ export default function Home({data}) {
               <AniLink cover to="/typical-lesson">
                 <Button variant="light" className="my-3">Learn more</Button>
               </AniLink>
+              </Fade>
             </div>
           </Col>
         </Row>
@@ -203,6 +212,7 @@ export default function Home({data}) {
           style={{position: 'absolute', objectFit: 'cover', zIndex: '-1'}}
           fluid={data.imageSix.childImageSharp.fluid} alt="Oakwood Guitar School" />
             <Col lg={6} className="align-left-center bg-white p-5 border">
+            <Fade down>
               <h1 className="section-title mb-5">
                 Location & Hours.
               </h1>
@@ -220,6 +230,7 @@ export default function Home({data}) {
                   </AniLink>
                     <Button variant="ogs" className="shadow mb-2" onClick={() => scrollTo('#book-a-trial')}>Book a trial</Button>
                 </div>
+                </Fade>
             </Col>
             <Col lg={6} className="p-0 m-0 min-50">
               <Img 
@@ -240,12 +251,17 @@ export default function Home({data}) {
             fluid={data.imageEight.childImageSharp.fluid} alt="Oakwood Guitar School" />
           </Col>
           <Col lg={6} className="align-left-center bg-texture p-5">
-            <h1 className="section-title mb-5">
-                Book a free trial!
-            </h1>
-            <h2 className="h4 text-muted font-weight-bold">Contact Oakwood Guitar School to book a free 30 minute trial lesson!</h2>
-            <p className="small text-muted pt-2">*Your personal information is only used for intial contact and subsequent communication with Oakwood Guitar School. It is not saved, stored, sold, or used in any other way.</p>
-            <MyForm />
+            <Fade down>
+              <h1 className="section-title mb-5">
+                  Book a free trial!
+              </h1>
+              <h2 className="h4 text-muted font-weight-bold">Contact Oakwood Guitar School to book a free 30 minute trial lesson!</h2>
+              <p className="small text-muted pt-2">*Your personal information is used for intial contact and subsequent communication with Oakwood Guitar School only. It is not saved, stored, sold, or used in any other way.</p>
+              {/* add div with specified width for fade animation */}
+              <div className="w-100">
+                <MyForm />
+              </div>  
+            </Fade>
           </Col>
         </Row>
       </Layout>

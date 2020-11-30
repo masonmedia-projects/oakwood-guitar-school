@@ -41,12 +41,12 @@ export default function Menu() {
         <Navbar collapseOnSelect expand="lg" bg="black" variant="dark" fixed="top" className="py-3 shadow">
             <AniLink 
             className="navbar-brand nav-link" 
-            cover bg="#000" 
-            duration={1.5}
+            paintDrip hex="#14CFA0" 
+            // duration={1.5}
             to="/">OGS
             </AniLink>
             {/* mobile CTA */}
-            <AniLink cover to="/contact" className="d-flex d-lg-none ml-auto my-0">
+            <AniLink paintDrip hex="#14CFA0" to="/contact" className="d-flex d-lg-none ml-auto my-0">
               <Button variant="ogs">Book a Trial!</Button>
             </AniLink>
             <Navbar.Toggle aria-controls="responsive-navbar-nav">
@@ -60,18 +60,18 @@ export default function Menu() {
                   <div key={node.id}>
                       <AniLink 
                       className="nav-link" 
-                      cover bg="#000" 
-                      duration={1.5}
+                      paintDrip hex="#000000" 
+                      // duration={1.5}
                       to={node.frontmatter.slug}>{node.frontmatter.title}</AniLink>
                   </div>
                   ))}
                   <AniLink 
                   className="nav-link" 
-                  cover bg="#000" 
-                  duration={1.5}
+                  paintDrip hex="#000000" 
+                  // duration={1.5}
                   to="/contact">Contact</AniLink>
                   {/* cta */}
-                  <AniLink cover to="/contact" className="d-none d-lg-flex ml-2 my-0">
+                  <AniLink paintDrip hex="#14CFA0" to="/contact" className="d-none d-lg-flex ml-2 my-0">
                     <Button variant="ogs">Book a Trial!</Button>
                   </AniLink>
                 </Nav>

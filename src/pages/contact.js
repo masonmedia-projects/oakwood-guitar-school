@@ -20,7 +20,7 @@ export default function contact({data}) {
                     <h1 className="section-title my-3">Get started today!</h1>
                     {/* <h2 className="h4 text-muted font-weight-bold">Contact us to book a free trial lesson, for more information or with any questions you may have.</h2> */}
                     <p className="h5 text-muted font-weight-bold mb-0">Contact us to book a free 30 minute trial lesson!</p>
-                    <p className="small text-muted pt-2">*Your personal information is only used for intial contact and subsequent communication with Oakwood Guitar School. It is not saved, stored, sold, or used in any other way.</p>
+                    <p className="small text-muted pt-2">*Your personal information is used for intial contact and subsequent communication with Oakwood Guitar School only. It is not saved, stored, sold, or used in any other way.</p>
                     {/* <ul className="list-unstyled mb-4">
                       <li><span className="font-weight-bold">Phone • </span>416.732.0764</li>
                       <li><span className="font-weight-bold">Email • </span> <a href="mailto:info@oakwoodguitarschool.com">info@oakwoodguitarschool.com</a></li>
