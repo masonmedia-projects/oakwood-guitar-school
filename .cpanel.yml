@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/andre065/landingpage.andrewmasonmedia.com/
+    - /bin/cp -R public/* $DEPLOYPATH

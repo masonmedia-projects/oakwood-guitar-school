@@ -1,7 +1,8 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "oakwood-guitar-school",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "Oakwood Guitar School provides fun, engaging, goal-oriented music lessons for students of all ages.",
+  "homepage": "http://oakwoodguitarschool.com",
   "version": "0.1.0",
   "license": "0BSD",
   "scripts": {
