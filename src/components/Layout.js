@@ -13,9 +13,6 @@ export default function Layout(props) {
         <>
             <Menu />
             <Container fluid
-            // data-aos="fade"
-            // data-aos-duration="1000"
-            // data-aos-easing="ease-in-out-back"
             className={`${props.containerClass} p-0`}
             style={props.containerStyle}>
                 {props.children}

@@ -62,10 +62,10 @@ export default class MyForm extends Component {
             <div className="form-group">
                 <textarea className="form-control" id="exampleFormControlTextarea1" type="text" name="message" placeholder="Message" rows="3" required></textarea>
                 <div className="d-flex py-2">
-                    {status === "SUCCESS" ? <button className="btn btn-dark mt-2 py-2 px-3">Thanks!</button> : <button id="sendForm" className="btn btn-dark mt-2 mr-2 py-2 px-3" type="submit" value="Send">Submit</button>}
+                    {status === "SUCCESS" ? <button className="btn btn-ogs mt-2 py-2 px-3">Thank you!</button> : <button id="sendForm" className="btn btn-dark mt-2 mr-2 py-2 px-3" type="submit" value="Send">Submit</button>}
                     {status === "ERROR" && 
                     <div id="alert" className="d-inline-block alert alert-danger mb-0 mt-2 py-2 px-3 fade show" role="alert">
-                        <strong>Error!</strong> Please try again!
+                        <strong>Please try again!</strong>
                     </div>}
                 </div>
             </div>

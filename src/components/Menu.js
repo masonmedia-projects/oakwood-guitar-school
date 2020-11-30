@@ -71,9 +71,9 @@ export default function Menu() {
                   duration={1.5}
                   to="/contact">Contact</AniLink>
                   {/* cta */}
-                  <a href="mailto:info@oakwoodguitarschool.com?subject=I'd20%like%20to%20book%20a%20lesson!" className="d-none d-lg-flex ml-2 my-0">
+                  <AniLink cover to="/contact" className="d-none d-lg-flex ml-2 my-0">
                     <Button variant="ogs">Book a Trial!</Button>
-                  </a>
+                  </AniLink>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

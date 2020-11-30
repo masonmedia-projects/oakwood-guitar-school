@@ -40,9 +40,9 @@ export default function Home({data}) {
               </h1>
               <div className="d-inline-block mt-4">
                 <Button variant="light" className="mb-2 mr-2 shadow" onClick={() => scrollTo('#what-we-do')}>Learn more</Button>
-                <a href="mailto:oakwoodguitarschool.com?subject=I'm%interested%20in%20guitar%20lessons!">
+                <AniLink cover to="/contact">
                   <Button variant="outline-light" className="shadow mb-2">Book a trial</Button>
-                </a>
+                </AniLink>
               </div>
             </div>
           </Col>
@@ -243,7 +243,8 @@ export default function Home({data}) {
             <h1 className="section-title mb-5">
                 Book a free trial!
             </h1>
-            <h2 className="h4 text-muted font-weight-bold border-bottom pb-3 mb-3">Contact us to book a free trial lesson, for more information or with any questions you may have.</h2>
+            <h2 className="h4 text-muted font-weight-bold">Contact us to book a free 30 minute trial lesson!</h2>
+            <p className="small text-muted pt-2">*Your personal information is only used for intial contact and subsequent communication with Oakwood Guitar School. It is not saved, stored, sold, or used in any other way.</p>
             <MyForm />
           </Col>
         </Row>
