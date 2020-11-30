@@ -46,6 +46,6 @@ module.exports = {
     },
   ],
   siteMetadata: {
-    title: 'OGS'
+    title: 'Oakwood Guitar School'
   }
 }
