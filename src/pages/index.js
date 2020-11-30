@@ -243,7 +243,7 @@ export default function Home({data}) {
             <h1 className="section-title mb-5">
                 Book a free trial!
             </h1>
-            <h2 className="h4 text-muted font-weight-bold">Contact us to book a free 30 minute trial lesson!</h2>
+            <h2 className="h4 text-muted font-weight-bold">Contact Oakwood Guitar School to book a free 30 minute trial lesson!</h2>
             <p className="small text-muted pt-2">*Your personal information is only used for intial contact and subsequent communication with Oakwood Guitar School. It is not saved, stored, sold, or used in any other way.</p>
             <MyForm />
           </Col>
