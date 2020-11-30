@@ -1,4 +1,5 @@
 export const text = { 
+    // homepage
     section_1: {
         "title": "What We Do.",
         "subtitle": "At OGS we provide fun, engaging, goal-oriented music lessons for students of all ages.",
@@ -34,5 +35,24 @@ export const text = {
         "subtitle": "Here's how a typical lesson works at Oakwood Guitar School",
         "desc": "Lessons at OGS are personalized and tailored to the needs of each individual student. However they do follow a relatively consistent routine which includes: warm ups and stretches, technical exercises, ear training, rhythm practice, repertoire development, and other essential skills." 
     },
+    section_5: {
+        "title": "Location & Hours",
+        "subtitle": "Here's how a typical lesson works at Oakwood Guitar School",
+        "desc": "Oakwood Guitar School is located in downtown Toronto's Wychwood area, and operates Monday-Friday between 3pm-10pm. In cases, we offer scheduling flexibility if students require aternate lesson times or lesson makeup options. Please see our",
+        "url": "rates & policies",
+        "desc2": "page for more information.",
+    },
+    section_6: {
+        "title": "Book a free trial",
+        "subtitle": "Contact Oakwood Guitar School to book a free 30 minute trial lesson!",
+    },
+    // contact page
+    contact_page: {
+        "title": "Get started today!",
+        "subtitle": "Contact us to book a free 30 minute trial lesson!",
+    },
+    privacy: {
+        "caveat": "*Your personal information is used for intial contact and subsequent communication with Oakwood Guitar School only. It is not saved, stored, sold, or used in any other way. We will get back to you within 48hrs!"
+    }
 
 }//end copy object

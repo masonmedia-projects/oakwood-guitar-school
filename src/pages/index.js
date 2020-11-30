@@ -2,11 +2,12 @@ import React from "react";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import { Row, Col, Button } from "react-bootstrap";
-import * as Constants from '../copy/homeText';
+import * as Constants from '../copy/text';
 import Img from "gatsby-image";
 import AniLink from "gatsby-plugin-transition-link/AniLink";
 import MyForm from "../components/ContactForm";
 import scrollTo from 'gatsby-plugin-smoothscroll';
+import Location from "../components/Location";
 import Fade from 'react-reveal/Fade'
 
 export default function Home({data}) {
@@ -214,18 +215,13 @@ export default function Home({data}) {
             <Col lg={6} className="align-left-center bg-white p-5 border">
             <Fade down>
               <h1 className="section-title mb-5">
-                Location & Hours.
+                {text.section_5.title}
               </h1>
-              <h2 className="h4 text-muted font-weight-bold">OGS is conveniently located in Toronto's west-end, with easy car and ttc access.</h2>
-                <ul className="list-unstyled my-3">
-                  <li><span className="font-weight-bold">Phone • </span>416.732.0764</li>
-                  <li><span className="font-weight-bold">Email • </span> <a href="mailto:info@oakwoodguitarschool.com">info@oakwoodguitarschool.com</a></li>
-                  <li><span className="font-weight-bold">Address • </span>
-                  <a href="https://www.google.com/maps/place/113+Alberta+Ave,+Toronto,+ON+M6H+2S1/@43.6785295,-79.435167,17z/data=!3m1!4b1!4m5!3m4!1s0x882b34796c431333:0x7e33b5abdcc0a799!8m2!3d43.6785295!4d-79.4329783">113 Alberta Avenue, Toronto, Ontario</a></li>
-                </ul>
-                <p>Oakwood Guitar School is located in downtown Toronto's Wychwood area, and operates Monday-Friday between 3pm-10pm. In cases, we offer scheduling flexibility if students require aternate lesson times or lesson makeup options. Please see our <AniLink cover to="/rates-policies" className="font-weight-bold">rates & policies</AniLink> page for more details, or inquire for more information.</p>
+              <h2 className="h4 text-muted font-weight-bold">{text.section_5.subtitle}</h2>
+                <Location />
+                <p>{text.section_5.desc} <AniLink paintDrip hex="#000000" to="/rates-policies" className="font-weight-bold">{text.section_5.url}</AniLink> {text.section_5.desc2}</p>
                 <div className="d-inline-block mt-4">
-                  <AniLink cover to="/contact">
+                  <AniLink paintDrip hex="#000000" to="/contact">
                     <Button variant="dark" className="mb-2 mr-2 shadow">Contact us</Button>
                   </AniLink>
                     <Button variant="ogs" className="shadow mb-2" onClick={() => scrollTo('#book-a-trial')}>Book a trial</Button>
@@ -256,7 +252,7 @@ export default function Home({data}) {
                   Book a free trial!
               </h1>
               <h2 className="h4 text-muted font-weight-bold">Contact Oakwood Guitar School to book a free 30 minute trial lesson!</h2>
-              <p className="small text-muted pt-2">*Your personal information is used for intial contact and subsequent communication with Oakwood Guitar School only. It is not saved, stored, sold, or used in any other way.</p>
+              <p className="small text-muted pt-2">{text.privacy.caveat}</p>
               {/* add div with specified width for fade animation */}
               <div className="w-100">
                 <MyForm />

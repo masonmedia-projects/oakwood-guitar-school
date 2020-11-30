@@ -3,11 +3,11 @@ import Layout from '../components/Layout';
 import { Row, Col } from 'react-bootstrap';
 import Img from 'gatsby-image';
 import { graphql } from "gatsby";
-import AniLink from 'gatsby-plugin-transition-link/AniLink';
 import MyForm from '../components/ContactForm';
+import * as Constants from '../copy/text';
 
 export default function contact({data}) {
-  
+    const text = Constants.text;
     return (
         <Layout>
             <Row className="min-100 p-0 m-0">
@@ -17,16 +17,9 @@ export default function contact({data}) {
                   style={{width: '150px'}}
                   durationFadeIn={0}
                   fluid={data.imageLogo.childImageSharp.fluid} />
-                    <h1 className="section-title my-3">Get started today!</h1>
-                    {/* <h2 className="h4 text-muted font-weight-bold">Contact us to book a free trial lesson, for more information or with any questions you may have.</h2> */}
-                    <p className="h5 text-muted font-weight-bold mb-0">Contact us to book a free 30 minute trial lesson!</p>
-                    <p className="small text-muted pt-2">*Your personal information is used for intial contact and subsequent communication with Oakwood Guitar School only. It is not saved, stored, sold, or used in any other way.</p>
-                    {/* <ul className="list-unstyled mb-4">
-                      <li><span className="font-weight-bold">Phone • </span>416.732.0764</li>
-                      <li><span className="font-weight-bold">Email • </span> <a href="mailto:info@oakwoodguitarschool.com">info@oakwoodguitarschool.com</a></li>
-                      <li><span className="font-weight-bold">Address • </span>
-                      <a href="https://www.google.com/maps/place/113+Alberta+Ave,+Toronto,+ON+M6H+2S1/@43.6785295,-79.435167,17z/data=!3m1!4b1!4m5!3m4!1s0x882b34796c431333:0x7e33b5abdcc0a799!8m2!3d43.6785295!4d-79.4329783">113 Alberta Avenue, Toronto, Ontario</a></li>
-                    </ul> */}
+                    <h1 className="section-title my-3">{text.contact_page.title}</h1>
+                    <p className="h5 text-muted font-weight-bold mb-0">{text.contact_page.subtitle}</p>
+                    <p className="small text-muted pt-2">{text.privacy.caveat}</p>
                     <MyForm />
                 </Col>
                 <Col lg={6} className="min-100 d-flex flex-column justify-content-end align-items-start p-0">
