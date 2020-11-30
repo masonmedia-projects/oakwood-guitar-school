@@ -46,9 +46,9 @@ export default function Menu() {
             to="/">OGS
             </AniLink>
             {/* mobile CTA */}
-            <a href="mailto:info@oakwoodguitarschool.com?subject=I'd%to%20book%20a%20lesson!" className="d-flex d-lg-none ml-auto my-0">
+            <AniLink to="/contact" className="d-flex d-lg-none ml-auto my-0">
               <Button variant="ogs">Book a Trial!</Button>
-            </a>
+            </AniLink>
             <Navbar.Toggle aria-controls="responsive-navbar-nav">
               <span className="icon-bar top-bar"></span>
 	            <span className="icon-bar middle-bar"></span>
