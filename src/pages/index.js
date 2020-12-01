@@ -81,12 +81,12 @@ export default function Home({data}) {
         <Row className="min-100 p-0 m-0 text-light bg-black relative">
           <Col sm={12} className="align-left-top p-5">
             <Fade down>
-            <h1 className="section-title pt-5 pb-3">
-              {text.section_2.title}
-            </h1>
-            <h2 className="h5 font-weight-bold">
-              {text.section_2.subtitle}
-            </h2>
+              <h1 className="section-title pt-5 pb-3">
+                {text.section_2.title}
+              </h1>
+              <h2 className="h5 font-weight-bold">
+                {text.section_2.subtitle}
+              </h2>
             </Fade>
           </Col>
 
