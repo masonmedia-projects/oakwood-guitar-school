@@ -6,7 +6,16 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [
+  siteMetadata: {
+    title: 'Oakwood Guitar School',
+    description: 'Oakwood Guitar School provides fun, engaging, goal-oriented music lessons for students of all ages.',
+    robots: 'index,follow',
+    url: 'https://oakwoodguitarschool.com',
+    type: 'website',
+    image: 'ogs_social_banner.png',
+    imageAlt: 'An image of the Oakwood Guitar School homepage featuring a photo of electric guitars and the site title.',
+  },
+  plugins: [ 
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-remark`,
@@ -14,6 +23,7 @@ module.exports = {
     `gatsby-plugin-transition-link`,
     `gatsby-plugin-catch-links`,
     `gatsby-plugin-smoothscroll`,
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {
@@ -45,7 +55,4 @@ module.exports = {
       },
     },
   ],
-  siteMetadata: {
-    title: 'Oakwood Guitar School'
-  }
 }
