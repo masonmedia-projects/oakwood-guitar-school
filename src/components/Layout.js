@@ -1,14 +1,10 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import Menu from './Menu';
 import { Container } from 'react-bootstrap';
 import Footer from './Footer';
 import SEO from './SEO';
 
 export default function Layout(props) {
-    // useEffect(() => {
-    //     AOS.init();
-    //     AOS.refresh();
-    //   });
     return (
         <>
             <SEO />

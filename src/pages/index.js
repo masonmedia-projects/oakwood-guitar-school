@@ -28,6 +28,7 @@ export default function Home({data}) {
               <div className="w-100 bg-black text-light shadow-lg rounded p-5">
               <Img 
               className="my-3" 
+              durationFadeIn={0}
               style={{width: '200px'}}
               fluid={data.imageIcon.childImageSharp.fluid} alt="Oakwood Guitar School logo"
               />
