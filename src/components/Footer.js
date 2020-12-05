@@ -1,16 +1,9 @@
 import React, { Component } from "react"
-// import { graphql } from "gatsby"
 import { Container, Row, Col } from "react-bootstrap";
 import AniLink from "gatsby-plugin-transition-link/AniLink";
 
 export class Footer extends Component {
-
-    render() {   
-
-        // get year for copyright
-        const d = new Date();
-        const y = d.getFullYear();
-        
+    render() {           
         return (
             <footer>
                 <Container fluid className="p-0 relative">
@@ -67,7 +60,7 @@ export class Footer extends Component {
                         </Col>
                         <Col sm={12} className="align-center font-weight-bold pt-4 pb-5">
                         <p id="copyright" className="mb-0">
-                        &copy; Oakwood Guitar School | {y}
+                        &copy; Oakwood Guitar School | {new Date().getFullYear()}
                         </p>
                         </Col>
                     </Row>
