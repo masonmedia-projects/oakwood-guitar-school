@@ -8,6 +8,10 @@ A website built with React and GatsbyJS for [Oakwood Guitar School](https://oakw
 
 The site is built with React, GatsbyJS, and Markdown.  The homepage is standard HTML/jsx, and all sub pages are markdown files that are rendered as HTML. 
 
+## Dependencies
+
+The site relies on `gatsby-source-filesystem`, `gatsby-markdown-remark`, `gatsby-image`, `gatsby-plugin-react-helmet` (SEO), `gatsby-plugin-sass`, `gatsby-plugin-transition-link` (for page transition animations), `gatsby-plugin-catch-links` (for maintaining SPA routing on links within markdown pages), `gatsby-plugin-smoothscroll` (smooth anchor scrolling on homepage).
+
 ## Images
 
 Images are contained in the images folder, and are processed and optimized using `gatsby-image`. 
