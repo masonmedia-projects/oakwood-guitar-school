@@ -18,16 +18,29 @@ export class Footer extends Component {
                         <Col xl={4} md={6} className="align-left-top px-5 pt-5 font-weight-bold">
                             <h3 className="font-weight-bold border-bottom border-secondary py-3 mb-3 w-100">Menu.</h3>
                             <ul className="list-unstyled">
-                                <AniLink paintDrip hex="#14CFA0" to="/">
+                                <AniLink 
+                                cover
+                                bg="#000000" 
+                                duration={1.5}
+                                to="/">
                                     <li>Home</li>
                                 </AniLink>
-                                <AniLink paintDrip hex="#000000" to="/why-ogs">
+                                <AniLink 
+                                cover 
+                                duration={1.5}
+                                to="/why-ogs">
                                     <li>Why OGS?</li>
                                 </AniLink>
-                                <AniLink paintDrip hex="#000000" to="/what-you-need">
+                                <AniLink 
+                                cover 
+                                duration={1.5}
+                                to="/what-you-need">
                                     <li>What You Need</li>
                                 </AniLink>
-                                <AniLink paintDrip hex="#000000" to="/typical-lesson">
+                                <AniLink 
+                                cover 
+                                duration={1.5}
+                                to="/typical-lesson">
                                     <li>Lessons at OGS</li>
                                 </AniLink>
                             </ul>
