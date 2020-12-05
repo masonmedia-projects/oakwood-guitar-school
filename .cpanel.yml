@@ -1,5 +1,8 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/andre065/landingpage.andrewmasonmedia.com/
+    - export DEPLOYPATH=/home/neilw254/oakwoodguitarschool.com/
     - /bin/cp -R public/* $DEPLOYPATH
+    
+    # - export DEPLOYPATH=/home/andre065/landingpage.andrewmasonmedia.com/
+    # - /bin/cp -R public/* $DEPLOYPATH
