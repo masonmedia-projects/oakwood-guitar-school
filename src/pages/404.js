@@ -7,7 +7,7 @@ export default function PageNotFound() {
     return (
         <Layout>
             <Row className="min-100">
-                <Col sm={12} className="align-center bg-texture">
+                <Col sm={12} className="align-center bg-light">
                     <h1 className="site-title">Page Not Found</h1>
                     <p>Please return to <AniLink cover to="/">OGS</AniLink></p>
                 </Col>
