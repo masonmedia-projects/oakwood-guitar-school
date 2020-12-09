@@ -59,8 +59,6 @@ module.exports = {
       resolve: 'gatsby-plugin-htaccess',
       options: {
         https: true,
-        www: true,
-        host: 'www.oakwoodguitarschool.com', // if 'www' is set to 'false', be sure to also remove it here!
         ErrorDocument: `
           ErrorDocument 401 /401.html
           ErrorDocument 404 /404.html
