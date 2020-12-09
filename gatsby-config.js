@@ -24,6 +24,7 @@ module.exports = {
     `gatsby-plugin-catch-links`,
     `gatsby-plugin-smoothscroll`,
     `gatsby-plugin-react-helmet`,
+    'gatsby-plugin-htaccess',
     {
       resolve: `gatsby-transformer-remark`,
       options: {
@@ -52,6 +53,19 @@ module.exports = {
       options: {
         path: `${__dirname}/src/markdown-pages`,
         name: `markdown-pages`,
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-htaccess',
+      options: {
+        https: true,
+        www: true,
+        host: 'www.oakwoodguitarschool.com', // if 'www' is set to 'false', be sure to also remove it here!
+        ErrorDocument: `
+          ErrorDocument 401 /401.html
+          ErrorDocument 404 /404.html
+          ErrorDocument 500 /500.html
+        `,
       },
     },
   ],
