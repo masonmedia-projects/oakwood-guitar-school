@@ -1,5 +1,9 @@
 # 🚀 Oakwood Guitar School Official Site
 
+<img src="static/ogs_social_banner.png"
+     alt="Oakwood Guitar School homepage banner photo"
+     style="width: 100%; float: left; margin: 0 auto;" />
+
 ## Official website for Toronto's best guitar school
 
 A website built with React and GatsbyJS for [Oakwood Guitar School](https://oakwoodguitarschoo.com), one of Toronto's premier music schools run by guitarist, performer, educator and producer [Neil Whitford](https://neilwhitford.com/).
