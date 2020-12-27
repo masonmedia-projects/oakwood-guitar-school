@@ -31,3 +31,7 @@ All content for the Home and Conact pages was put into `text.js` inside the `cop
 ## Site pages
 
 Sub pages (Why OGS, What You Need, Typical Lesson, etc.) are written in Markdown, so text is hard-coded in each specific page, which makes it relatively easy to edit. Edits to those pages must happen inside the `markdown-pages` folder and to each page individually.
+
+## License
+
+Please see `License.md` for more information.

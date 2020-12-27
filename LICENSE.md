@@ -1,3 +1,9 @@
+Copyright (c) 2020 Andrew Mason
+
+This respository is a website made with Gatsby, React, React-Bootstrap, and React-Reveal. Those libraries retain their own copyrights and licenses. The layout, UI, images, color palette, and architecture contained in this repository were designed and built by Andrew Mason and are protected by Copyright. The Oakwood Guitar School brand and all the website text content herein is owned by Neil Whitford.  Please contact [Andrew Mason](https://andrewmasonmedia.now.sh) or [Neil Whitford](https://neilwhitford.com) for questions about permissions.
+
+Gatsby License
+
 The BSD Zero Clause License (0BSD)
 
 Copyright (c) 2020 Gatsby Inc.
