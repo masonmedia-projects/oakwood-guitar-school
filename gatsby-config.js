@@ -8,7 +8,7 @@ module.exports = {
   /* Your site config here */
   siteMetadata: {
     title: 'Oakwood Guitar School',
-    description: 'Oakwood Guitar School provides fun, engaging, goal-oriented music lessons for students of all ages.',
+    description: 'Oakwood Guitar School provides fun, engaging and goal-oriented music lessons for students of all ages.',
     robots: 'index,follow',
     url: 'https://oakwoodguitarschool.com',
     type: 'website',
