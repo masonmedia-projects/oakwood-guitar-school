@@ -4,7 +4,6 @@ import { Helmet } from 'react-helmet';
 
 export default function SEO() {
     
-    // const meta = site.siteMetadata; 
     return (
     <StaticQuery
       query={graphql`
